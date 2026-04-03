@@ -183,6 +183,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "UCC28180"
+		(exclude_from_sim no)
+		(at 132.08 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9bee9c3-f0b7-4103-abd9-936a54076389")
+	)
 	(junction
 		(at 118.11 123.19)
 		(diameter 0)
