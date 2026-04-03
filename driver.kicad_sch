@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "71e9025d-ae90-479c-9309-592e95c283e4")
+	(paper "A4")
+	(lib_symbols)
+	(text "LKS1D5007DT"
+		(exclude_from_sim no)
+		(at 164.592 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc4e4bd8-b4ff-4fd0-9915-c389eb1140c6")
+	)
+)

@@ -1,0 +1,231 @@
+(footprint "PWRM-TH_TAS10-XX-NH"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -16 0)
+		(layer "F.SilkS")
+		(uuid "84d3669d-191f-4636-8b51-9ba41a2e46b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PWRM-TH_TAS10-XX-NH"
+		(at 0 16 0)
+		(layer "F.Fab")
+		(uuid "0dd59f6b-4641-493c-abd9-6f9cfabdf0e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81ead817-1c27-4044-9f0d-13335c025836")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1084653-0cdd-44d1-a3d7-0451479a97c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -24.25 -18)
+		(end -24.25 18)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0ef709d-3e2e-45e7-8b9a-32f886ee198f")
+	)
+	(fp_line
+		(start -24.25 -18)
+		(end 24.25 -18)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47ff3596-56a5-41be-a6ba-fc50fa829e80")
+	)
+	(fp_line
+		(start -24.25 18)
+		(end 21.25 18)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9b6b5cb-d2a1-4873-b5e4-6aaeb0068fb5")
+	)
+	(fp_line
+		(start 24.25 -18)
+		(end 24.25 15)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "facb9657-a88d-4f2c-89c2-1a3aa517ea3c")
+	)
+	(fp_line
+		(start 24.25 15)
+		(end 21.25 18)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69fa1553-816f-40a3-8263-af030029906e")
+	)
+	(fp_circle
+		(center -24.25 18)
+		(end -24.22 18)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "816260d7-9691-4f43-b2fa-ba61112427d0")
+	)
+	(fp_circle
+		(center -20.25 -12)
+		(end -20 -12)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0864e81d-9006-43f9-ab50-871d301d1f33")
+	)
+	(fp_circle
+		(center -20.25 0)
+		(end -20 0)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9c2b30cb-df15-47b6-bf2c-666a71a95896")
+	)
+	(fp_circle
+		(center -20.25 12)
+		(end -20 12)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e94308b2-343a-4d1d-99c6-532e025bf052")
+	)
+	(fp_circle
+		(center 20.25 -8)
+		(end 20.5 -8)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7713cc0b-ea78-4f8f-96a0-feac36a6e48d")
+	)
+	(fp_circle
+		(center 20.25 8)
+		(end 20.5 8)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2e36c337-d518-44a4-b69a-7d954075f937")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4a70faf6-fef6-41cb-8f8b-a9ce482c8180")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -20.25 12)
+		(size 2 2)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3db79ba4-22da-4797-ae2e-cf4cc12e28e7")
+	)
+	(pad "2" thru_hole circle
+		(at -20.25 0)
+		(size 2 2)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e4f977a-0c20-44e0-aa78-07128de6dd64")
+	)
+	(pad "3" thru_hole circle
+		(at -20.25 -12)
+		(size 2 2)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6b9b3ca0-6b1c-433e-ac94-b06c088e9686")
+	)
+	(pad "4" thru_hole circle
+		(at 20.25 -8)
+		(size 2 2)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c7c3e672-02c1-40f8-a4b7-fb75a6d190cc")
+	)
+	(pad "8" thru_hole circle
+		(at 20.25 8)
+		(size 2 2)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0719dd4c-8a49-4861-b637-0fa7f5471fce")
+	)
+	(embedded_fonts no)
+	(model "/home/tj/Documents/Kicad/easyeda2kicad/easyeda2kicad.3dshapes/PWRM-TH_TAS10-XX-NH.step"
+		(offset
+			(xyz 0 -0 11)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

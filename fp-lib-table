@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ThommysLib")(type "KiCad")(uri "${KIPRJMOD}/ThommysLib.pretty")(options "")(descr ""))
+)
