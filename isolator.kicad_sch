@@ -756,145 +756,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:LINE"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LINE"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"LINE\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LINE_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LINE_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
+	)
+	(junction
+		(at 76.2 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49a116ea-d45c-47d3-b30f-03fef399298b")
 	)
 	(junction
 		(at 114.3 102.87)
@@ -903,10 +770,10 @@
 		(uuid "66cdffd4-4bf2-45fc-b58c-4f5ff20aa833")
 	)
 	(junction
-		(at 76.2 102.87)
+		(at 76.2 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bbe05af6-9812-47ac-aca7-0baedccf376d")
+		(uuid "a9494655-4fc3-4af6-aa58-ff04fc691142")
 	)
 	(wire
 		(pts
@@ -920,26 +787,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 101.6) (xy 76.2 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21ac6ab8-2f57-4b70-a2e1-a25551d8a6a5")
-	)
-	(wire
-		(pts
-			(xy 83.82 123.19) (xy 83.82 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a3c6031-99d3-4626-b3d0-a2e474c9ef9b")
-	)
-	(wire
-		(pts
 			(xy 114.3 101.6) (xy 114.3 102.87)
 		)
 		(stroke
@@ -950,13 +797,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 102.87) (xy 76.2 104.14)
+			(xy 76.2 123.19) (xy 85.09 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54bec2a5-1c6c-4182-8e22-8425c5a8ea5a")
+		(uuid "510a8aef-1c84-4a09-bd52-8f1f04e2cf2c")
 	)
 	(wire
 		(pts
@@ -980,6 +827,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 107.95) (xy 76.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2d4ba2-0f44-4c56-b5b7-4988357c6536")
+	)
+	(wire
+		(pts
 			(xy 85.09 118.11) (xy 71.12 118.11)
 		)
 		(stroke
@@ -990,7 +847,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 102.87) (xy 85.09 115.57)
+			(xy 85.09 107.95) (xy 85.09 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1000,7 +857,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 109.22) (xy 76.2 110.49)
+			(xy 76.2 114.3) (xy 76.2 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1050,7 +907,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 102.87) (xy 76.2 102.87)
+			(xy 85.09 107.95) (xy 76.2 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1070,13 +927,23 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 123.19) (xy 83.82 123.19)
+			(xy 71.12 123.19) (xy 76.2 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e8e76237-e132-46ef-bf82-4511a540852e")
+	)
+	(wire
+		(pts
+			(xy 76.2 105.41) (xy 76.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddbd416-122e-433c-bcc9-7a4bbe7e7042")
 	)
 	(wire
 		(pts
@@ -1097,6 +964,28 @@
 			(type default)
 		)
 		(uuid "fc2b36f0-bb16-476f-bcec-3cc3c811a3bf")
+	)
+	(hierarchical_label "ISO_V+"
+		(shape input)
+		(at 76.2 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18336d7e-95ad-4dc0-a96a-1d9dac98bbcb")
+	)
+	(hierarchical_label "ISO_GND"
+		(shape input)
+		(at 71.12 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "432ecc1b-ae14-4663-85bd-d5293a88207f")
 	)
 	(hierarchical_label "ISO_CAN_H"
 		(shape input)
@@ -1141,84 +1030,6 @@
 			(justify left)
 		)
 		(uuid "ca631941-8056-4403-a289-cb39febc4559")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 83.82 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12524bbb-32a6-49d7-8623-a892717e17a3")
-		(property "Reference" "#PWR043"
-			(at 83.82 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c0773524-3da1-4390-a0ec-c996f39f2d2b")
-		)
-		(instances
-			(project "CompressorController"
-				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/01f47ec5-ba42-4b70-81c2-bc38c3a66058"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1545,6 +1356,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 114.046 105.156 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f01c5d7b-ec7b-481d-9bf9-5a036a2dfb19")
 		)
@@ -1555,163 +1377,6 @@
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/01f47ec5-ba42-4b70-81c2-bc38c3a66058"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 76.2 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c54861b3-0fa0-49c9-b26b-9854f6426d32")
-		(property "Reference" "#PWR042"
-			(at 76.2 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af93de68-0ca3-44a2-8510-cb3d2386982c")
-		)
-		(instances
-			(project "CompressorController"
-				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/01f47ec5-ba42-4b70-81c2-bc38c3a66058"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:LINE")
-		(at 76.2 101.6 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1aa8efc-10d5-411b-8ec5-e4e439d65ca6")
-		(property "Reference" "#PWR041"
-			(at 76.2 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LINE"
-			(at 76.2 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"LINE\""
-			(at 76.2 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ba5bc05-97f9-45cc-ad52-701f63d73d6b")
-		)
-		(instances
-			(project "CompressorController"
-				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/01f47ec5-ba42-4b70-81c2-bc38c3a66058"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -1951,7 +1616,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 76.2 106.68 0)
+		(at 76.2 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1961,7 +1626,7 @@
 		(dnp no)
 		(uuid "fddb6e40-b66e-49dc-871e-479bcd8640e7")
 		(property "Reference" "C19"
-			(at 76.454 105.156 0)
+			(at 76.454 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1972,7 +1637,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 76.454 108.458 0)
+			(at 76.454 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1983,7 +1648,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 76.2 106.68 0)
+			(at 76.2 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1994,7 +1659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 106.68 0)
+			(at 76.2 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2005,7 +1670,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 76.2 106.68 0)
+			(at 76.2 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2016,7 +1681,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 76.2 106.68 0)
+			(at 76.2 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2027,7 +1692,18 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 76.2 106.68 0)
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 76.454 110.236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

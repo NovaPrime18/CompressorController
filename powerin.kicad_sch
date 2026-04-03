@@ -4295,7 +4295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm"
 			(at 132.08 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4341,6 +4341,28 @@
 		)
 		(property "KLC_S4.1" ""
 			(at 132.08 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "C340576"
+			(at 132.08 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C340576"
+			(at 131.318 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4772,7 +4794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm"
 			(at 102.87 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4827,6 +4849,28 @@
 				)
 			)
 		)
+		(property "JLC" "C340576"
+			(at 102.87 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C340576"
+			(at 103.632 83.058 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dd7266d6-adec-42d6-b0e2-8972466d12a7")
 		)
@@ -4864,7 +4908,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "430V 3.5KA DISC 10MM"
+		(property "Value" "B72214S2271K101"
 			(at 69.85 92.9032 0)
 			(hide yes)
 			(show_name no)
@@ -4876,7 +4920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Varistor:RV_Disc_D12mm_W5.4mm_P7.5mm"
 			(at 65.532 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -4977,6 +5021,28 @@
 		)
 		(property "KLC_S4.1" ""
 			(at 67.31 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "C210689"
+			(at 67.31 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C210689"
+			(at 69.85 90.3632 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5113,7 +5179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm"
 			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5159,6 +5225,28 @@
 		)
 		(property "KLC_S4.1" ""
 			(at 132.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "C340576"
+			(at 132.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C340576"
+			(at 131.318 81.788 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5282,6 +5370,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C6719424"
+			(at 196.85 96.5902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "6679610e-33aa-4eb1-b3cd-e06bc48431f9")
 		)
@@ -5392,6 +5491,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17900"
+			(at 87.63 96.5199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9d0d39f3-4d67-46cb-9f91-8c624ac96064")
 		)
@@ -5487,6 +5597,17 @@
 		)
 		(property "KLC_S4.1" ""
 			(at 85.09 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17900"
+			(at 87.63 90.1699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5609,6 +5730,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C570974"
+			(at 189.23 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb26dddc-e8f1-44db-8ac0-928150afe647")
 		)
@@ -5666,7 +5798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
 			(at 76.2 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5712,6 +5844,28 @@
 		)
 		(property "KLC_S4.1" ""
 			(at 76.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "C489081"
+			(at 76.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C489081"
+			(at 76.962 89.408 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5769,7 +5923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
 			(at 143.51 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5815,6 +5969,28 @@
 		)
 		(property "KLC_S4.1" ""
 			(at 143.51 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "C489081"
+			(at 143.51 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C489081"
+			(at 144.272 88.138 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5872,7 +6048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm"
 			(at 102.87 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5918,6 +6094,28 @@
 		)
 		(property "KLC_S4.1" ""
 			(at 102.87 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "C340576"
+			(at 102.87 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C340576"
+			(at 103.632 95.758 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6133,6 +6331,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17900"
+			(at 87.63 83.8199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "47f2b687-3641-4b27-a31e-b2a1a9e0895f")
 		)
@@ -6225,6 +6434,17 @@
 		)
 		(property "KLC_S4.1" ""
 			(at 212.09 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 210.312 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6441,10 +6661,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ca3f021f-eef5-4c5e-9e8d-c20579d101a6")
 		(property "Reference" "L1"
