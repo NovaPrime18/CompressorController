@@ -9438,7 +9438,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "8M"
 			(at 187.96 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9448,7 +9448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 187.96 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9496,6 +9496,28 @@
 			(at 187.96 85.09 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "C2682775"
+			(at 187.96 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2682775"
+			(at 187.96 60.96 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -10309,7 +10331,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2054141"
+		(property "LCSC" "C15742"
 			(at 132.4767 156.21 0)
 			(hide yes)
 			(show_name no)

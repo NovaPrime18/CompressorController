@@ -280,6 +280,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -885,6 +1008,12 @@
 		(uuid "3cfd2c26-54aa-45a0-a4fa-2a6e30b75ba8")
 	)
 	(junction
+		(at 189.23 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "437a3cc5-649f-4196-8d04-674c0f97ff22")
+	)
+	(junction
 		(at 217.17 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -907,6 +1036,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50e6b1a0-e076-4032-af5d-344ebfb62ee5")
+	)
+	(junction
+		(at 196.85 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d949e96-5a60-484b-9d9f-6bb37f08a850")
 	)
 	(junction
 		(at 217.17 113.03)
@@ -1266,6 +1401,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 127) (xy 193.04 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2771ecd1-8d08-4d0e-b445-f13e0fff4d5f")
+	)
+	(wire
+		(pts
 			(xy 128.27 71.12) (xy 128.27 68.58)
 		)
 		(stroke
@@ -1306,7 +1451,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 139.7) (xy 190.5 139.7)
+			(xy 186.69 139.7) (xy 189.23 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1586,7 +1731,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 127) (xy 193.04 127)
+			(xy 199.39 127) (xy 196.85 127)
 		)
 		(stroke
 			(width 0)
@@ -1663,6 +1808,16 @@
 			(type default)
 		)
 		(uuid "7664c041-f6d4-4741-ad8f-c198c879ee59")
+	)
+	(wire
+		(pts
+			(xy 189.23 139.7) (xy 190.5 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783004e3-c1c2-4194-b361-74036c5df5d5")
 	)
 	(wire
 		(pts
@@ -3274,6 +3429,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 196.85 127 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "151cad58-5b5a-40c2-b595-33cd6970d9f5")
+		(property "Reference" "TP3"
+			(at 194.31 122.4279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IPM_Temp"
+			(at 194.31 124.9679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 191.77 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 196.85 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a35e1430-eb20-4628-895c-c59aa8062011")
+		)
+		(instances
+			(project "CompressorController"
+				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/82a015bc-92a9-4d4a-b03d-13313fc8d6b3"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74LVC1G66")
 		(at 182.88 30.48 0)
 		(unit 2)
@@ -4479,7 +4713,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C97489"
+		(property "LCSC" "C46472227"
 			(at 52.07 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4815,6 +5049,85 @@
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/82a015bc-92a9-4d4a-b03d-13313fc8d6b3"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 189.23 139.7 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "6ad0a316-9da6-48d3-8818-7e4ce5f871f5")
+		(property "Reference" "TP4"
+			(at 186.69 135.1279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fault"
+			(at 186.69 137.6679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 184.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 189.23 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bca1e19c-904c-4ee7-a3c1-d90fcb1f44e3")
+		)
+		(instances
+			(project "CompressorController"
+				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/82a015bc-92a9-4d4a-b03d-13313fc8d6b3"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5705,7 +6018,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C97489"
+		(property "LCSC" "C46472227"
 			(at 88.9 29.2099 0)
 			(hide yes)
 			(show_name no)
@@ -6490,7 +6803,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C97489"
+		(property "LCSC" "C46472227"
 			(at 172.72 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7862,7 +8175,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C97489"
+		(property "LCSC" "C46472227"
 			(at 156.21 29.2099 0)
 			(hide yes)
 			(show_name no)

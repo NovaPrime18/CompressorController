@@ -2461,16 +2461,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Does this need to go through transceiver?"
-		(exclude_from_sim no)
-		(at 141.986 66.802 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b979f5bb-7fb4-4604-a77f-9293063edd38")
-	)
 	(junction
 		(at 97.79 93.98)
 		(diameter 0)

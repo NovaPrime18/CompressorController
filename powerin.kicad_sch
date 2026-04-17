@@ -4677,11 +4677,12 @@
 		)
 		(uuid "54f82b0c-86b4-4968-a952-2491821eae03")
 	)
-	(text "TIDA-00707 Reference design"
+	(text "Following TIDA-00443"
 		(exclude_from_sim no)
 		(at 124.206 25.146 0)
 		(effects
 			(font
+				(face "Comfortaa Light")
 				(size 4 4)
 			)
 		)
@@ -4955,7 +4956,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 54.61) (xy 38.1 54.61)
+			(xy 34.29 54.61) (xy 54.61 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5035,7 +5036,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 49.53) (xy 38.1 49.53)
+			(xy 34.29 49.53) (xy 54.61 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5275,16 +5276,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 154.94) (xy 203.2 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42d1882c-1e25-4b94-b01d-489b96b73d30")
-	)
-	(wire
-		(pts
 			(xy 88.9 133.35) (xy 81.28 133.35)
 		)
 		(stroke
@@ -5472,16 +5463,6 @@
 			(type default)
 		)
 		(uuid "6eccd759-6f94-4cb8-b3b6-f3d0180152ad")
-	)
-	(wire
-		(pts
-			(xy 48.26 54.61) (xy 54.61 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f8b942a-43c4-4bfd-85d0-b64194c5c135")
 	)
 	(wire
 		(pts
@@ -6145,16 +6126,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 49.53) (xy 48.26 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4b1d1e7-b9f5-4b52-8c34-44ee17141880")
-	)
-	(wire
-		(pts
 			(xy 121.92 54.61) (xy 121.92 63.5)
 		)
 		(stroke
@@ -6328,6 +6299,114 @@
 			(justify left)
 		)
 		(uuid "fccf2046-f442-48f6-aef9-042b80d3ef24")
+	)
+	(symbol
+		(lib_id "Device:L_Ferrite_Coupled")
+		(at 43.18 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "01752ebc-b360-4d52-9399-ef92df8a1fe7")
+		(property "Reference" "L1"
+			(at 42.926 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ferrite on input cable"
+			(at 42.926 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Coupled inductor with ferrite core"
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "33e1394a-d78d-4278-bb30-cfcd00b3aeea")
+		)
+		(pin "2"
+			(uuid "879197aa-0595-4a7c-b295-e69dc4688922")
+		)
+		(pin "3"
+			(uuid "c713aafb-5813-43d6-8083-eb4cb7bfa881")
+		)
+		(pin "1"
+			(uuid "4b78f9e4-05ca-4960-9998-100c6fad8f7e")
+		)
+		(instances
+			(project "CompressorController"
+				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/7e6bf2c6-e96e-4351-baa9-641aff849a5e"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -6738,7 +6817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "V6560Y"
+		(property "Value" "22*10*25"
 			(at 209.55 153.0349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6749,7 +6828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ThommysLib:HEATSINK-TH_L22.0-W9.8-P14.00-D2.2"
 			(at 206.0448 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6772,6 +6851,17 @@
 			)
 		)
 		(property "Description" "Heatsink with electrical connection, 2 pin"
+			(at 205.74 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "C4656"
 			(at 205.74 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6905,84 +6995,6 @@
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/7e6bf2c6-e96e-4351-baa9-641aff849a5e"
 					(reference "R60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 203.2 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2105bbbf-1f1e-4b68-b13a-442c31a591d0")
-		(property "Reference" "#PWR084"
-			(at 203.2 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d8fc3fe3-9ef5-46e5-9546-e6e4c114a1be")
-		)
-		(instances
-			(project "CompressorController"
-				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/7e6bf2c6-e96e-4351-baa9-641aff849a5e"
-					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -7801,7 +7813,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17901"
 			(at 49.53 128.2699 0)
 			(hide yes)
 			(show_name no)
@@ -8347,7 +8359,7 @@
 				)
 			)
 		)
-		(property "Value" "KBU8J"
+		(property "Value" "GBU1510"
 			(at 195.58 55.9502 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8357,7 +8369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:Diode_Bridge_Vishay_KBU"
+		(property "Footprint" "ThommysLib:GBU_4P-L22.0-W3.5-P5.08_GBU808"
 			(at 190.5 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -8369,7 +8381,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88656/kbu8.pdf"
+		(property "Datasheet" ""
 			(at 186.69 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8380,7 +8392,7 @@
 				)
 			)
 		)
-		(property "Description" "Single-Phase Bridge Rectifier, 420V Vrms, 8.0A If, KBU package"
+		(property "Description" "Bridge Rectifier 1kV Through Hole GBJ 30A"
 			(at 186.69 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8413,19 +8425,8 @@
 				)
 			)
 		)
-		(property "JLC" "C6719424"
+		(property "JLC" "C22447862"
 			(at 186.69 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C6719424"
-			(at 195.58 58.4902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8522,6 +8523,17 @@
 		)
 		(property "JLC" "C2924779"
 			(at 157.48 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2924779"
+			(at 157.099 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9724,6 +9736,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2924779"
+			(at 116.459 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3f99e587-3b58-442d-ba8e-bc2dae506e13")
 		)
@@ -9843,6 +9866,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C41371865"
+			(at 59.69 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aeb7f12a-e712-48f7-8872-54b0f79829a5")
 		)
@@ -9892,7 +9926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "ThommysLib:RES-TH_BD9.5-L48.0-P52.00-D0.7"
 			(at 71.12 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10856,114 +10890,6 @@
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/7e6bf2c6-e96e-4351-baa9-641aff849a5e"
 					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Ferrite_Coupled")
-		(at 43.18 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "ca3f021f-eef5-4c5e-9e8d-c20579d101a6")
-		(property "Reference" "L1"
-			(at 42.926 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Ferrite on input cable"
-			(at 42.926 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Coupled inductor with ferrite core"
-			(at 43.18 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 43.18 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 43.18 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "7a87eb59-c3cb-4114-bc34-2d1ced4e4ce7")
-		)
-		(pin "2"
-			(uuid "a51cc602-4615-43cd-8935-fb1f249edb26")
-		)
-		(pin "3"
-			(uuid "d59bdb7f-0a50-4ad8-8578-e237860fea78")
-		)
-		(pin "1"
-			(uuid "052b2c90-ca0e-45b2-80d0-7cce8f410a20")
-		)
-		(instances
-			(project "CompressorController"
-				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/7e6bf2c6-e96e-4351-baa9-641aff849a5e"
-					(reference "L1")
 					(unit 1)
 				)
 			)
