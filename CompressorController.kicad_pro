@@ -224,7 +224,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "R1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -451,7 +451,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -773,7 +773,7 @@
         "uuid": "9356db5b-0906-438c-b9cb-65e0760b4732"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR41-43,#PWR117,#PWR129-143,L3,R58-61,R68,R71,R81-100,D10,D15-16,C72-84,HS2-3,Q3,U9,U18-19",
     "variants": []
   },
   "sheets": [
@@ -784,6 +784,10 @@
     [
       "81adec23-9254-480c-9cd0-8c99edc344c3",
       "MCU"
+    ],
+    [
+      "4ab916ed-baf9-4fc4-8431-7e6a35d8e390",
+      "CAN1"
     ],
     [
       "40eedfff-e9a6-496a-ae8e-97227a764f56",

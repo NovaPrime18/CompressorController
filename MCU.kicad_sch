@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "511b4639-acce-4987-a53b-d81d29e9a360")
 	(paper "A4")
+	(title_block
+		(title "Mains Powered VESC MD")
+		(date "2026-04-16")
+		(rev "R1")
+		(company "Picobello B.V.")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
