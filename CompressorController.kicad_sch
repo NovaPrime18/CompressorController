@@ -1479,7 +1479,7 @@
 		)
 		(uuid "25115506-f8dc-4ccf-9801-3b4d84d427df")
 	)
-	(text "TODO:\nFootprints\nLCSC partnmrs\ntagconnect pinout\nResistor div calc"
+	(text "TODO:\ntagconnect pinout\nResistor div calc"
 		(exclude_from_sim no)
 		(at 101.092 134.62 0)
 		(effects
@@ -1488,16 +1488,6 @@
 			)
 		)
 		(uuid "a96244dd-2c5c-4388-a15d-3b1469e24420")
-	)
-	(text "TODO: Mains conn"
-		(exclude_from_sim no)
-		(at 97.282 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bc5f0383-d3cb-44e8-95bc-2e7907578a33")
 	)
 	(text "Needs to follow for CE cert:\nEN IEC 63000 (RoHS)\nIEC 60335-2-34 (Particular requirements for motor-compressors)\nIEC_61000-3-2 (Limits for harmonic current emissions) <--- Most important"
 		(exclude_from_sim no)
@@ -2353,7 +2343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0505ad8f-350c-4f60-8eaa-a422041f83a3")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 252.73 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2430,6 +2420,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19268035"
+			(at 252.73 57.1499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a99a6b7e-ceb6-495c-9489-314eae415261")
 		)
@@ -2442,7 +2443,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2460,7 +2461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16a3f2cd-648b-4da7-80ab-53dd83ceeeed")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR03"
 			(at 113.03 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2520,7 +2521,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732"
-					(reference "#PWR025")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2537,7 +2538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "256de640-3db2-4c7c-9a9e-9d50cbb15e1e")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at 186.055 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2627,7 +2628,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2645,7 +2646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "536dd091-8f46-4e34-89ea-449e3020871d")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 114.3 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2667,7 +2668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_MR30PW-M_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_GMSTB:PhoenixContact_GMSTB_2,5_3-GF-7,62_1x03_P7.62mm_Horizontal_ThreadedFlange_MountHole"
 			(at 115.57 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -2722,8 +2723,19 @@
 				)
 			)
 		)
-		(property "JLC" "C19268036"
+		(property "JLC" "C5121957"
 			(at 115.57 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5121957"
+			(at 114.3 24.1299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2745,7 +2757,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2875,7 +2887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74fedc9a-873c-4984-abbc-7507c0672e2f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR01"
 			(at 73.66 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -2936,7 +2948,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732"
-					(reference "#PWR027")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3138,7 +3150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c92822ac-b3ca-4ba5-85d8-27d27ceb8feb")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 101.092 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3233,7 +3245,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3459,6 +3471,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C84267"
+			(at 114.808 76.962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "77109def-dc1f-468e-807b-51a58fdb6e85")
 		)
@@ -3486,7 +3509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4863320-9eb0-4a8a-8888-f0c080cf606f")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 96.266 117.856 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3583,7 +3606,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3601,7 +3624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1793cf3-a965-49ed-96c0-618986d0f38e")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 66.04 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3677,7 +3700,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3695,7 +3718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f677af43-2f09-43c4-9c1b-178774a5439c")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR02"
 			(at 102.87 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3755,7 +3778,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732"
-					(reference "#PWR024")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

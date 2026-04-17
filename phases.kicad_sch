@@ -4249,7 +4249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00c152a4-0248-4ce5-a85c-5335a87ad2fd")
-		(property "Reference" "R44"
+		(property "Reference" "R37"
 			(at 277.368 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4324,6 +4324,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17954"
+			(at 277.368 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c98d3709-7fea-4eb5-8e8a-2610f3183a41")
 		)
@@ -4333,7 +4344,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R44")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -4351,7 +4362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07947f8e-c802-452b-bc81-4a1de146a16a")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR040"
 			(at 71.12 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -4411,7 +4422,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR069")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4429,7 +4440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "106ae525-3cda-469c-9aea-4a8962f09283")
-		(property "Reference" "R38"
+		(property "Reference" "R31"
 			(at 277.368 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4504,6 +4515,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17954"
+			(at 277.368 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c1e190ad-04a7-4a50-b0b7-d91d2c8fa39b")
 		)
@@ -4513,7 +4535,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R38")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -4531,7 +4553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "190487ec-0ebc-4374-80e2-c1bb8bff1154")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR038"
 			(at 67.31 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -4591,7 +4613,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR073")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4609,7 +4631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19e941c6-4aea-4161-a6a7-d1167c54376f")
-		(property "Reference" "R45"
+		(property "Reference" "R38"
 			(at 277.368 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4684,6 +4706,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17954"
+			(at 277.368 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "586e6538-fbc6-4421-82e8-21e0f611b9a4")
 		)
@@ -4693,7 +4726,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R45")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -4711,7 +4744,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19e9d99b-f496-461f-adda-e4a0231c8e0b")
-		(property "Reference" "R42"
+		(property "Reference" "R35"
 			(at 277.368 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4786,6 +4819,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17954"
+			(at 277.368 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "177bc516-a54b-48eb-aa29-580c1ff3bcbb")
 		)
@@ -4795,7 +4839,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R42")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -4813,7 +4857,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "228a7e0c-404f-42dd-afad-1d3b9ccb1342")
-		(property "Reference" "R30"
+		(property "Reference" "R26"
 			(at 194.818 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4888,6 +4932,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C104926"
+			(at 194.818 155.194 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1aafac7a-f712-490f-bb80-0f807f1aa926")
 		)
@@ -4903,7 +4958,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R30")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -4920,7 +4975,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28902f5e-2a96-43fa-982c-0a5db81b788c")
-		(property "Reference" "R55"
+		(property "Reference" "R25"
 			(at 161.29 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5015,7 +5070,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R55")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -5032,7 +5087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "292362cd-cabf-4f3c-aae5-85b1fd2893a1")
-		(property "Reference" "C58"
+		(property "Reference" "C26"
 			(at 160.274 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5129,7 +5184,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "C58")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5147,7 +5202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a0b0100-f0db-4389-a52a-51c656ecbaba")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR034"
 			(at 67.31 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5207,7 +5262,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR062")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -5225,7 +5280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a61166f-f52c-4574-b7e6-6e400b3150d2")
-		(property "Reference" "R35"
+		(property "Reference" "R27"
 			(at 201.168 167.894 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5315,7 +5370,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R35")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -5332,7 +5387,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f195a96-8955-4bc4-930d-a0db4fafc59d")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR044"
 			(at 147.32 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5392,7 +5447,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR065")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5409,7 +5464,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32ec96de-c6f4-4803-8bb5-5d057871f64e")
-		(property "Reference" "R65"
+		(property "Reference" "R16"
 			(at 106.426 127.254 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5486,6 +5541,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23345"
+			(at 106.426 127.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "31e2ee79-3e83-4c88-aaa3-91180f2ed708")
 		)
@@ -5495,7 +5561,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R65")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5513,7 +5579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "340c7769-2838-4dfc-a42d-e759c9584182")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR048"
 			(at 199.39 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5573,7 +5639,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR0100")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5590,7 +5656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3471af7d-8633-4e6a-a05f-7cbb60c83fe3")
-		(property "Reference" "C30"
+		(property "Reference" "C15"
 			(at 71.374 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +5753,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "C30")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5704,7 +5770,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37653fa6-fb01-4542-a615-b13092b5871d")
-		(property "Reference" "C56"
+		(property "Reference" "C25"
 			(at 160.274 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5801,7 +5867,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "C56")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -5818,7 +5884,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38afd7bc-dc6b-4107-80f8-ce3699be72ff")
-		(property "Reference" "R64"
+		(property "Reference" "R15"
 			(at 106.426 124.714 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5895,6 +5961,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23345"
+			(at 106.426 124.714 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4c88a7f6-dcc3-4d74-b1d4-be0a790a95cc")
 		)
@@ -5904,7 +5981,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R64")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5921,7 +5998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "393995bc-de8c-4b4e-a190-7aac82c6d668")
-		(property "Reference" "C51"
+		(property "Reference" "C19"
 			(at 147.574 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6018,7 +6095,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "C51")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -6036,7 +6113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3cc8725e-f56c-4cee-a919-f287d7af554e")
-		(property "Reference" "R41"
+		(property "Reference" "R34"
 			(at 277.368 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6111,6 +6188,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17954"
+			(at 277.368 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "66fd99b6-88db-435d-a04d-de341297b2ae")
 		)
@@ -6120,7 +6208,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R41")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -6137,7 +6225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41802947-ce62-41bb-8433-c1609d73d9e6")
-		(property "Reference" "R66"
+		(property "Reference" "R17"
 			(at 106.426 129.794 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6214,6 +6302,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23345"
+			(at 106.426 129.794 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1b56f1bf-de8b-42e8-8fda-4d103b4990bb")
 		)
@@ -6223,7 +6322,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R66")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6241,7 +6340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42dab48a-1ac7-46d0-ab0c-8cbcc701bba4")
-		(property "Reference" "R43"
+		(property "Reference" "R36"
 			(at 277.368 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6316,6 +6415,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52603"
+			(at 277.368 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9c23c34e-9551-4134-af8b-5c18331388d5")
 		)
@@ -6325,7 +6435,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R43")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -6343,7 +6453,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4659616f-107c-494d-a6de-986e2220ce78")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR045"
 			(at 147.32 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6403,7 +6513,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR0101")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6422,7 +6532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49e8daa6-e425-4087-9b42-c5e088065e7a")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR051"
 			(at 275.59 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -6482,7 +6592,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR079")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6500,7 +6610,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ce9c252-e620-48da-aa03-dd8a421c36cb")
-		(property "Reference" "U8"
+		(property "Reference" "U4"
 			(at 59.69 170.434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6575,6 +6685,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1346458"
+			(at 59.69 170.434 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f22ac66c-fcee-4b50-8015-554ae5a5b099")
 		)
@@ -6602,7 +6723,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "U8")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6619,7 +6740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54444825-9cc4-49b5-b830-9bbc3e01c0a4")
-		(property "Reference" "C35"
+		(property "Reference" "C17"
 			(at 71.374 200.406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6716,7 +6837,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "C35")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6733,7 +6854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55f701e7-8036-4e97-9f59-01d73a4a1e7c")
-		(property "Reference" "R22"
+		(property "Reference" "R20"
 			(at 124.968 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6810,6 +6931,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 124.968 135.636 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9f668b9f-cbbd-447e-85d8-4dcb721becea")
 		)
@@ -6819,7 +6951,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R22")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6837,7 +6969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5eb1a3e8-3e71-41b7-a327-fd90d66194ef")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR043"
 			(at 138.43 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6897,7 +7029,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR0119")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6915,7 +7047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63b86886-dec4-417b-967c-67be85853430")
-		(property "Reference" "U10"
+		(property "Reference" "U5"
 			(at 59.69 211.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6990,6 +7122,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1346458"
+			(at 59.69 211.074 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "81c4a2d8-fd3a-4bde-acb3-3254f6137ff7")
 		)
@@ -7017,7 +7160,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "U10")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7034,7 +7177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c95c22f-d4e3-4616-904b-2b4e45fc3340")
-		(property "Reference" "C59"
+		(property "Reference" "C28"
 			(at 219.964 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7122,6 +7265,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1871"
+			(at 219.964 98.806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4c7f6582-8d56-4d1f-833c-eaf243264d42")
 		)
@@ -7131,7 +7285,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "C59")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -7149,7 +7303,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73a3a85c-bf1e-43f8-a167-d7b0fede4b2c")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR047"
 			(at 167.64 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7209,7 +7363,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR063")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7226,7 +7380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "754d7320-7e1a-4709-a8ac-18828ac80b42")
-		(property "Reference" "R24"
+		(property "Reference" "R22"
 			(at 135.128 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7303,6 +7457,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 135.128 135.636 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c5447495-f580-4353-bbb1-6aabef77a49b")
 		)
@@ -7312,7 +7477,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R24")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7329,7 +7494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77664932-b79e-459a-bc5e-4997fd6bf1fe")
-		(property "Reference" "C60"
+		(property "Reference" "C27"
 			(at 167.894 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7426,7 +7591,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "C60")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -7443,7 +7608,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e503fd0-7366-478e-9214-a6087ca86ab0")
-		(property "Reference" "R26"
+		(property "Reference" "R24"
 			(at 145.288 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7520,6 +7685,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 145.288 135.636 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2188fca1-cc6e-4e8b-94b4-c9ca772a6a7e")
 		)
@@ -7529,7 +7705,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R26")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -7548,7 +7724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81ad9a49-0cdc-4d86-99c9-f4271f3be9c0")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR050"
 			(at 275.59 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7608,7 +7784,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR078")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7625,7 +7801,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89904e47-c540-41db-9cc1-66a156521f94")
-		(property "Reference" "R67"
+		(property "Reference" "R18"
 			(at 106.426 132.334 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7702,6 +7878,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23345"
+			(at 106.426 132.334 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "90390391-dd91-4b9b-a03a-34ec29f81c15")
 		)
@@ -7711,7 +7898,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R67")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7729,7 +7916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f2497fe-bea4-42b6-8b14-01d8be18f46f")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 59.69 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7804,6 +7991,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1346458"
+			(at 59.69 128.524 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a1b50562-1151-49c8-aa32-614eb499bc68")
 		)
@@ -7831,7 +8029,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7848,7 +8046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "949d1471-0256-4cd1-87e3-78bae5fb705e")
-		(property "Reference" "C52"
+		(property "Reference" "C23"
 			(at 157.734 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7945,7 +8143,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "C52")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -7964,7 +8162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "994f4082-70aa-4679-b18e-57000db502ce")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR049"
 			(at 275.59 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8024,7 +8222,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR077")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8042,7 +8240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b4119f4-b6ff-4d1e-a617-741489a8d45e")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR036"
 			(at 67.31 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -8102,7 +8300,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR068")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8119,7 +8317,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a31c8592-ca27-447a-a89c-e4adf4ec76c9")
-		(property "Reference" "U17"
+		(property "Reference" "U6"
 			(at 182.88 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8269,7 +8467,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "U17")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -8287,7 +8485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a39c261f-2b9d-4fe2-8f55-445a3cbfdfbb")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR039"
 			(at 71.12 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8347,7 +8545,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR060")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8365,7 +8563,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4d0be0c-9248-4f03-95bb-2e6a4a9f1db4")
-		(property "Reference" "C53"
+		(property "Reference" "C20"
 			(at 155.956 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8462,7 +8660,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "C53")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -8480,7 +8678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a550c772-1538-471a-bbd0-8452937d5ff1")
-		(property "Reference" "C57"
+		(property "Reference" "C22"
 			(at 155.956 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8577,7 +8775,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "C57")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -8594,7 +8792,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6f2ec16-473d-43bc-94e0-e62ba628e209")
-		(property "Reference" "R63"
+		(property "Reference" "R14"
 			(at 106.426 122.174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8671,6 +8869,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23345"
+			(at 106.426 122.174 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "81908f69-7a1b-450b-934c-a86ee88d1547")
 		)
@@ -8680,7 +8889,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R63")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8697,7 +8906,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aca19824-cc65-4cd9-b7ad-7c2dd41322bc")
-		(property "Reference" "R25"
+		(property "Reference" "R23"
 			(at 140.208 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8774,6 +8983,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 140.208 135.636 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ca152b79-a830-4765-b7a9-fde5acf5b2f9")
 		)
@@ -8783,7 +9003,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R25")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8801,7 +9021,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0af6305-33a3-4021-85d5-ed4518af6a42")
-		(property "Reference" "R46"
+		(property "Reference" "R39"
 			(at 277.368 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8876,6 +9096,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17954"
+			(at 277.368 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a35a08ba-1b2c-417e-be1b-033a5e8cb436")
 		)
@@ -8885,7 +9116,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R46")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -8903,7 +9134,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba11111e-2dfa-4e36-9b1a-631c07e85673")
-		(property "Reference" "R36"
+		(property "Reference" "R29"
 			(at 277.368 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8978,6 +9209,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17954"
+			(at 277.368 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "077f1819-5f84-4d4b-82c4-621fd6641957")
 		)
@@ -8987,7 +9229,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R36")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -9005,7 +9247,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bdfe4fce-e4ef-4b34-90ae-675e5f5f93c9")
-		(property "Reference" "R37"
+		(property "Reference" "R30"
 			(at 277.368 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9080,6 +9322,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17954"
+			(at 277.368 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cd232379-8f56-4469-b896-41d74c1405f5")
 		)
@@ -9089,7 +9342,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R37")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -9106,7 +9359,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf4db318-d305-4310-85b5-dec16e516dba")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR035"
 			(at 67.31 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9166,7 +9419,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR067")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9184,7 +9437,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0c061a8-8d32-4409-baef-e48879808081")
-		(property "Reference" "R33"
+		(property "Reference" "R28"
 			(at 208.788 180.594 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9274,7 +9527,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R33")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -9292,7 +9545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3adf63f-a136-4367-afd1-dc9169af3a24")
-		(property "Reference" "R39"
+		(property "Reference" "R32"
 			(at 277.368 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9367,6 +9620,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52603"
+			(at 277.368 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "19154dfa-a278-4960-b892-f003f5b8156a")
 		)
@@ -9376,7 +9640,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R39")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -9394,7 +9658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3e62ecf-44ed-4744-a7b9-6fb8e3b968f6")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR046"
 			(at 157.48 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9454,7 +9718,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR0102")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -9471,7 +9735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c49c8d09-7d8e-4f0e-9d1a-d106f3ce77e8")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR037"
 			(at 67.31 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -9531,7 +9795,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR072")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9548,7 +9812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c76ab554-cc37-45cd-8469-95655d673795")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR033"
 			(at 67.31 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9608,7 +9872,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR061")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9626,7 +9890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbf26b40-d73a-46e2-95d6-21d7749f9d5e")
-		(property "Reference" "C55"
+		(property "Reference" "C21"
 			(at 155.956 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9723,7 +9987,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "C55")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -9740,7 +10004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d28a2439-cb3c-47f6-93e5-36a165192921")
-		(property "Reference" "R23"
+		(property "Reference" "R21"
 			(at 130.048 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9817,6 +10081,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 130.048 135.636 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "772d8733-0daa-4a73-a9e5-63025cfe6a58")
 		)
@@ -9826,7 +10101,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R23")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -9843,7 +10118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7ce39d5-0633-4b6a-9bf2-5f359383feeb")
-		(property "Reference" "R27"
+		(property "Reference" "R19"
 			(at 119.888 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9920,6 +10195,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 119.888 135.636 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fdc889b2-edcc-4d93-92fa-17d4acb149ab")
 		)
@@ -9929,7 +10215,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R27")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9947,7 +10233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da74d264-ac12-43cc-912a-0eb7e833b550")
-		(property "Reference" "C68"
+		(property "Reference" "C18"
 			(at 138.176 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10024,6 +10310,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23630"
+			(at 138.176 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aa254ee2-2898-4a9f-836c-1aa0e5b088f3")
 		)
@@ -10033,7 +10330,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "C68")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -10051,7 +10348,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df5c337a-a806-447f-b84c-4ddbcfe19cb4")
-		(property "Reference" "R47"
+		(property "Reference" "R40"
 			(at 277.368 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10126,6 +10423,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52603"
+			(at 277.368 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "42425559-1568-482c-b11a-e3c931434717")
 		)
@@ -10135,7 +10443,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R47")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -10152,7 +10460,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2f23441-2485-471d-8d48-6fe708c7cbcb")
-		(property "Reference" "C33"
+		(property "Reference" "C16"
 			(at 71.374 159.766 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10249,7 +10557,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "C33")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -10267,7 +10575,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e444c93f-d0bf-4044-91c6-6e91e8d8deed")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR042"
 			(at 133.35 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -10327,7 +10635,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR0118")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -10344,7 +10652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee32b04e-0d51-40d6-b2bf-bc1097a3e6f5")
-		(property "Reference" "C54"
+		(property "Reference" "C24"
 			(at 160.274 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10441,7 +10749,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "C54")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -10459,7 +10767,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f05ac06b-84fb-469e-9aea-d8bb6a1595a0")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR041"
 			(at 71.12 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -10519,7 +10827,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "#PWR074")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -10536,7 +10844,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd3d7d4d-30ee-408b-bbf6-4c95634a6529")
-		(property "Reference" "R62"
+		(property "Reference" "R13"
 			(at 106.426 119.634 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10613,6 +10921,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23345"
+			(at 106.426 119.634 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9007299e-e6e7-4362-8b08-5a0a3f771b10")
 		)
@@ -10622,7 +10941,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R62")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10640,7 +10959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff781227-0c8c-4606-87d3-4bd692759524")
-		(property "Reference" "R40"
+		(property "Reference" "R33"
 			(at 277.368 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10715,6 +11034,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17954"
+			(at 277.368 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c7e1d83e-5727-4585-a724-2aec10355a78")
 		)
@@ -10724,7 +11054,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/40eedfff-e9a6-496a-ae8e-97227a764f56"
-					(reference "R40")
+					(reference "R33")
 					(unit 1)
 				)
 			)

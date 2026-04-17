@@ -1,0 +1,235 @@
+(footprint "IND-TH_L33.0-W15.6-P15.00-D1.5"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "f98869d3-4434-4d60-a509-ba6c2665bd4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-TH_L33.0-W15.6-P15.00-D1.5"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "eac501e6-e4e8-4a26-a9fc-1a84e9d5cd0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54922898-9699-42e1-9575-bcc432a9fc28")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "296960f1-ee13-4ed0-b1d1-6259593634ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part" "C52766608"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "469db4c3-22ee-41f3-8b0f-25204e26a227")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -8.25 -16.5)
+		(end -8.25 -1.33)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed972c22-aac1-47d1-8c86-01d282cbb575")
+	)
+	(fp_line
+		(start -8.25 -16.5)
+		(end 8.25 -16.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dbb82051-6fce-4480-8f82-23d9981994f3")
+	)
+	(fp_line
+		(start -8.25 1.33)
+		(end -8.25 16.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "feaf2203-656c-4dd2-b821-c7fe7b1af304")
+	)
+	(fp_line
+		(start -8.25 16.5)
+		(end 8.25 16.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5a54970-08ac-451c-add5-a796ac8fa75c")
+	)
+	(fp_line
+		(start 8.25 -16.5)
+		(end 8.25 -1.33)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "714121aa-3986-4155-8ea1-541cb2260c53")
+	)
+	(fp_line
+		(start 8.25 1.33)
+		(end 8.25 16.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4ecf9e4-743c-4a26-ab13-daf4c5dc7428")
+	)
+	(fp_circle
+		(center -8.25 16.5)
+		(end -8.22 16.5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "23ff559d-827c-4512-8f9d-209d7403ab5b")
+	)
+	(fp_line
+		(start -8.25 -16.5)
+		(end 8.25 -16.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a0cd5018-ebfb-433c-84d2-47c16fb60365")
+	)
+	(fp_line
+		(start -8.25 16.5)
+		(end -8.25 -16.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "405607f1-c1c0-403b-a206-3b425ecb4043")
+	)
+	(fp_line
+		(start 8.25 -16.5)
+		(end 8.25 16.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "08e720cb-0a19-4ec3-b6fc-17d9a4e369cc")
+	)
+	(fp_line
+		(start 8.25 16.5)
+		(end -8.25 16.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb5171b1-3615-41b8-ab88-ad30d30a8b67")
+	)
+	(fp_circle
+		(center -7.5 0)
+		(end -7.13 0)
+		(stroke
+			(width 0.75)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9ac2d83d-1c5a-4cdc-bd49-0f037608c260")
+	)
+	(fp_circle
+		(center 7.5 0)
+		(end 7.87 0)
+		(stroke
+			(width 0.75)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d9a041f6-98fd-4575-962f-bebf4e0dfac1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7f8f1da3-d222-41eb-a48f-ebefffc63c9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -7.5 0)
+		(size 2.6 2.6)
+		(drill 1.799996)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "47457eba-6be5-44d4-8351-ecd431576af2")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 0)
+		(size 2.6 2.6)
+		(drill 1.799996)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "167e29a1-1fc0-4146-b340-c9fb5dc92ea0")
+	)
+	(embedded_fonts no)
+	(model "/home/tj/Desktop/EasyEDA.3dshapes/IND-TH_L33.0-W15.6-P15.00-D1.5.step"
+		(offset
+			(xyz 0 0 17)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

@@ -2666,6 +2666,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "This may be too much output cap"
+		(exclude_from_sim no)
+		(at 72.39 86.106 0)
+		(effects
+			(font
+				(face "Comfortaa Light")
+				(size 2 2)
+			)
+		)
+		(uuid "fb15e098-57aa-4614-b9c3-68d050821f21")
+	)
 	(junction
 		(at 55.88 63.5)
 		(diameter 0)
@@ -2834,6 +2845,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 63.5) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1c5172-b582-4d67-b783-101743e6a33d")
+	)
+	(wire
+		(pts
 			(xy 62.23 63.5) (xy 62.23 57.15)
 		)
 		(stroke
@@ -2994,6 +3015,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 63.5) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b786940f-79fa-4160-ab11-452eae7a03ea")
+	)
+	(wire
+		(pts
+			(xy 165.1 74.93) (xy 165.1 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8be9558-9d97-4f26-8482-c3e18c06696e")
+	)
+	(wire
+		(pts
 			(xy 63.5 66.04) (xy 63.5 63.5)
 		)
 		(stroke
@@ -3061,6 +3102,16 @@
 			(type default)
 		)
 		(uuid "d4405557-bb30-4c2c-8628-bcaca3f8992a")
+	)
+	(wire
+		(pts
+			(xy 165.1 80.01) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d535a946-463d-4a8e-9257-0aebe60f1675")
 	)
 	(wire
 		(pts
@@ -3193,7 +3244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "000e7559-1c60-41b9-b198-b66e9bccd271")
-		(property "Reference" "C66"
+		(property "Reference" "C84"
 			(at 152.654 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3290,7 +3341,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "C66")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -3307,7 +3358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bccc558-898e-410c-a987-748b4ecb091b")
-		(property "Reference" "D8"
+		(property "Reference" "D15"
 			(at 44.958 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3393,6 +3444,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C84267"
+			(at 44.958 69.342 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f850c76b-5f09-47e0-b804-39d370118e79")
 		)
@@ -3402,7 +3464,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "D8")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -3419,7 +3481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1011d65c-3aed-4aa5-af59-0b3207388eb3")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0139"
 			(at 127 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3480,7 +3542,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "#PWR0111")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -3492,13 +3554,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27549a05-b855-4f75-8917-28b3bc07a09a")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 154.94 58.9279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3559,7 +3621,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -3576,7 +3638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d987098-6329-417f-80fd-c6c80bd7e0e9")
-		(property "Reference" "C32"
+		(property "Reference" "C80"
 			(at 62.484 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3695,7 +3757,85 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "C32")
+					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b75350b-f3fb-4002-a2fa-730254208d81")
+		(property "Reference" "#PWR0144"
+			(at 165.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1aee1d12-3cd1-453c-9415-cdf15d91204b")
+		)
+		(instances
+			(project "CompressorController"
+				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -3713,7 +3853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f9d51fd-4fc6-4dc8-a500-9ba804046892")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR0131"
 			(at 43.18 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3773,7 +3913,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "#PWR058")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -3791,7 +3931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42298928-6b24-4ce4-ab65-dfbf6f18b673")
-		(property "Reference" "U6"
+		(property "Reference" "U18"
 			(at 93.98 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4115,7 +4255,130 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "U6")
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 165.1 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42354a05-bf95-435a-8bd8-3f416e85024a")
+		(property "Reference" "D17"
+			(at 166.878 69.342 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 168.148 73.152 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 165.1 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol, filled shape"
+			(at 165.1 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 165.1 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 165.1 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 165.1 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C84267"
+			(at 166.878 69.342 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a91109e-2778-4cec-add4-24fc7adae5ea")
+		)
+		(pin "2"
+			(uuid "66ea9e75-d456-4a91-8a18-e68085ffa39f")
+		)
+		(instances
+			(project "CompressorController"
+				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -4133,7 +4396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45ef56eb-f821-4b07-bc24-8e3a477f0376")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0141"
 			(at 147.32 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4193,7 +4456,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "#PWR0115")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -4210,7 +4473,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48338261-daee-43fb-87a0-c4a8e95485a0")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0135"
 			(at 77.47 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4271,7 +4534,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "#PWR0108")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -4289,7 +4552,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ad48079-6a6a-4c09-ac31-061df6169508")
-		(property "Reference" "C65"
+		(property "Reference" "C81"
 			(at 121.666 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4386,7 +4649,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "C65")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -4403,7 +4666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d8a8725-5b84-4bd5-8652-ee1627d23ce6")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0130"
 			(at 30.48 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4464,7 +4727,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "#PWR070")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -4482,7 +4745,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52439b4d-1bb9-4c2d-b060-b6c6f4e740e3")
-		(property "Reference" "D7"
+		(property "Reference" "D16"
 			(at 74.93 69.5324 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4711,7 +4974,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "D7")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -4729,7 +4992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6417dc8e-9920-4300-913f-b6206032c049")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0133"
 			(at 62.23 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4789,7 +5052,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "#PWR071")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -4807,7 +5070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b200cf4-1fb9-465d-b022-1bf02083662a")
-		(property "Reference" "U7"
+		(property "Reference" "U19"
 			(at 137.16 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5075,7 +5338,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "U7")
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -5093,7 +5356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e38bc07-2fd7-4b22-aaa4-656bae8cd175")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0143"
 			(at 152.4 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5153,7 +5416,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "#PWR0114")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -5170,7 +5433,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "731fb1af-23aa-43f0-b35b-14a88a7cd3af")
-		(property "Reference" "C31"
+		(property "Reference" "C78"
 			(at 30.734 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5289,7 +5552,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "C31")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -5306,7 +5569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73cc9cad-4795-4c2a-9fa7-66d8abcd1031")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0134"
 			(at 62.23 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5367,7 +5630,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "#PWR099")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -5384,7 +5647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7462b635-017c-4bff-99bd-3b620f56c94d")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0140"
 			(at 137.16 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5445,7 +5708,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "#PWR0113")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -5462,7 +5725,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8629f7d2-24f1-4e00-9f55-dedfed684b25")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 65.786 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5546,7 +5809,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "L2")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -5563,7 +5826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95b1fef2-1e9b-41b8-91b2-70739908a0fc")
-		(property "Reference" "C64"
+		(property "Reference" "C82"
 			(at 127.254 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5660,7 +5923,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "C64")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -5673,12 +5936,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "966ae301-3dde-4a3b-a680-c6a09bf93429")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 119.38 58.9279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5739,7 +6002,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -5757,7 +6020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4e1ab32-db71-453d-b541-da4f57fdb199")
-		(property "Reference" "C34"
+		(property "Reference" "C79"
 			(at 55.626 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5854,7 +6117,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "C34")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -5872,7 +6135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6b3ce6b-85ef-40ae-8eb6-4ea2f502e4da")
-		(property "Reference" "C67"
+		(property "Reference" "C83"
 			(at 147.066 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5969,7 +6232,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "C67")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -5987,7 +6250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab8090e0-c6a5-45d1-8884-24b3f12443e8")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0142"
 			(at 147.32 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6048,7 +6311,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "#PWR0116")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -6067,7 +6330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4127552-d1c4-44fd-941b-41007c0e0778")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0129"
 			(at 30.48 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6127,7 +6390,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "#PWR066")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -6144,7 +6407,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c066f076-3504-43bf-9477-ec2eb3f63b0a")
-		(property "Reference" "R28"
+		(property "Reference" "R96"
 			(at 41.402 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6239,7 +6502,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "R28")
+					(reference "R96")
 					(unit 1)
 				)
 			)
@@ -6256,7 +6519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5f87d1c-c4eb-48a1-b8c0-15092a344754")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0132"
 			(at 55.88 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6317,7 +6580,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "#PWR0109")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -6336,7 +6599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c83734ec-d514-487c-ba91-1f6a0eb09bac")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0137"
 			(at 121.92 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6396,7 +6659,119 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "#PWR0112")
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 165.1 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca4b1ef1-7ded-4e4b-8c1d-7eed00f424f4")
+		(property "Reference" "R97"
+			(at 163.322 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 167.132 77.724 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 165.1 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 165.1 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 165.1 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 163.322 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "15d7d4b4-4488-459e-95c9-4084b563b2f6")
+		)
+		(pin "1"
+			(uuid "cd4e2e91-f419-4b2a-9154-176485e9baa7")
+		)
+		(instances
+			(project "CompressorController"
+				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -6413,7 +6788,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8c9ae48-0ddb-4547-8039-b1de93800a60")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0136"
 			(at 105.41 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6474,7 +6849,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "#PWR0107")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -6492,7 +6867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9bfc8fc-c88a-4fc7-95ff-c52530cbf31c")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0138"
 			(at 127 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6552,7 +6927,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "#PWR0110")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)

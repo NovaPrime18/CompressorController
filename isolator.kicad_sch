@@ -1050,7 +1050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3019404c-44e7-452c-9b9b-a2ee40cc3244")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR073"
 			(at 114.3 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -1110,7 +1110,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/01f47ec5-ba42-4b70-81c2-bc38c3a66058"
-					(reference "#PWR040")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -1129,7 +1129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59618dd6-1a3e-4b6e-a52d-4441af130708")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR071"
 			(at 106.68 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -1189,7 +1189,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/01f47ec5-ba42-4b70-81c2-bc38c3a66058"
-					(reference "#PWR039")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -1207,7 +1207,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84a8766f-a7e1-4383-bdad-d4a75b78987d")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR072"
 			(at 114.3 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -1267,7 +1267,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/01f47ec5-ba42-4b70-81c2-bc38c3a66058"
-					(reference "#PWR038")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -1285,7 +1285,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c29c1590-d6d3-43f6-89d7-5097d697f472")
-		(property "Reference" "C18"
+		(property "Reference" "C36"
 			(at 114.046 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1382,7 +1382,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/01f47ec5-ba42-4b70-81c2-bc38c3a66058"
-					(reference "C18")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -1400,7 +1400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc19e5fd-db6e-430b-81fa-f4ef21f4cac6")
-		(property "Reference" "U4"
+		(property "Reference" "U9"
 			(at 95.25 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1614,7 +1614,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/01f47ec5-ba42-4b70-81c2-bc38c3a66058"
-					(reference "U4")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -1631,7 +1631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fddb6e40-b66e-49dc-871e-479bcd8640e7")
-		(property "Reference" "C19"
+		(property "Reference" "C35"
 			(at 76.454 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1728,7 +1728,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/01f47ec5-ba42-4b70-81c2-bc38c3a66058"
-					(reference "C19")
+					(reference "C35")
 					(unit 1)
 				)
 			)

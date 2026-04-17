@@ -2280,6 +2280,366 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ThommiesLib:IPL60R185C7"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q3"
+				(at -3.048 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IPL60R185C7"
+				(at 4.572 -0.254 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "ThommysLib:VSON-4_L8.1-W8.1-P2.00-BL"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/drain/source"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC" "C537028"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IPL60R185C7_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IPL60R185C7_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ThommiesLib:UCC27511ADBV"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2723,307 +3083,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_NMOS_GDS"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS_GDS"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, gate/drain/source"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_NMOS_GDS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NMOS_GDS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+15V"
 			(power global)
 			(pin_numbers
@@ -3279,17 +3338,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO:\nCheck pins\n"
-		(exclude_from_sim no)
-		(at 190.754 61.214 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "06357801-f551-462c-bb60-7a03755d859c")
-	)
-	(text "Heatsink for D16"
+	(text "Heatsink for D12"
 		(exclude_from_sim no)
 		(at 221.488 145.288 0)
 		(effects
@@ -3299,6 +3348,16 @@
 			)
 		)
 		(uuid "371cab80-5dab-421d-b07b-b47ef983a636")
+	)
+	(text "C239291"
+		(exclude_from_sim no)
+		(at 216.916 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54633529-9fc0-45b9-b4e7-726dbc5ef000")
 	)
 	(text "Following TIDA-00443"
 		(exclude_from_sim no)
@@ -3311,7 +3370,7 @@
 		)
 		(uuid "5d5ab6f1-8fd0-45ce-8b22-365ffab7684d")
 	)
-	(text "IDk why, but TI ref design does this"
+	(text "IDk why, but TI ref design does this, trim?"
 		(exclude_from_sim no)
 		(at 109.728 100.33 0)
 		(effects
@@ -3367,8 +3426,8 @@
 	)
 	(text_box "PFC controller"
 		(exclude_from_sim no)
-		(at 91.44 105.41 0)
-		(size 99.06 43.18)
+		(at 91.44 106.68 0)
+		(size 99.06 41.91)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3386,7 +3445,7 @@
 		)
 		(uuid "964c12a2-27f4-4ea7-b997-31f5512b6172")
 	)
-	(text_box "Boost follower control"
+	(text_box "Boost follower control and sensing"
 		(exclude_from_sim no)
 		(at 15.24 139.7 0)
 		(size 45.72 55.88)
@@ -3420,6 +3479,12 @@
 		(uuid "06ce97bf-d259-40d1-9797-ce0fdac3180d")
 	)
 	(junction
+		(at 184.15 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1decebc0-97a9-4960-982f-4ac69c0a23c4")
+	)
+	(junction
 		(at 154.94 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3442,12 +3507,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5567f00c-f1e8-486f-829c-c9a1a81064a9")
-	)
-	(junction
-		(at 181.61 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b3c21f0-a1f3-4b85-aa06-c3bd0305ace8")
 	)
 	(junction
 		(at 208.28 86.36)
@@ -3490,6 +3549,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "872c40b3-60c5-45c6-9d0d-67f05626d37f")
+	)
+	(junction
+		(at 181.61 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a53a27a-cdbe-4883-826a-7791684a6f0a")
 	)
 	(junction
 		(at 255.27 86.36)
@@ -4021,16 +4086,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 119.38) (xy 181.61 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44f1998a-3ab5-42c8-9d68-3d55f9a77c93")
-	)
-	(wire
-		(pts
 			(xy 237.49 76.2) (xy 240.03 76.2)
 		)
 		(stroke
@@ -4071,7 +4126,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 72.39) (xy 181.61 86.36)
+			(xy 181.61 72.39) (xy 181.61 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4148,6 +4203,16 @@
 			(type default)
 		)
 		(uuid "5759413e-a847-4f2a-8a69-ca08baedddf8")
+	)
+	(wire
+		(pts
+			(xy 184.15 72.39) (xy 184.15 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59aebf4a-5514-4bda-980c-90623cd5eb85")
 	)
 	(wire
 		(pts
@@ -4391,6 +4456,26 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 73.66) (xy 181.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e57a7b0-155d-4955-90cc-b19b2da390c0")
+	)
+	(wire
+		(pts
+			(xy 181.61 73.66) (xy 181.61 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd43561-7414-401e-b4d1-6ea0e4af1911")
+	)
+	(wire
+		(pts
 			(xy 189.23 54.61) (xy 196.85 54.61)
 		)
 		(stroke
@@ -4548,6 +4633,16 @@
 			(type default)
 		)
 		(uuid "945a8df6-3609-4ef8-abd7-b102c652d265")
+	)
+	(wire
+		(pts
+			(xy 179.07 73.66) (xy 181.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947a1ef1-9e06-4ece-bbb3-c1b2702b5482")
 	)
 	(wire
 		(pts
@@ -4801,7 +4896,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 115.57) (xy 181.61 119.38)
+			(xy 184.15 115.57) (xy 184.15 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5011,7 +5106,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 119.38) (xy 181.61 119.38)
+			(xy 179.07 119.38) (xy 184.15 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5078,6 +5173,16 @@
 			(type default)
 		)
 		(uuid "d80b2bce-dfc2-4f2c-93cb-2af964f53f59")
+	)
+	(wire
+		(pts
+			(xy 179.07 72.39) (xy 179.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f0d6f2-5004-4044-9c53-7f5d5b3a3f40")
 	)
 	(wire
 		(pts
@@ -5286,7 +5391,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "027e314c-3d84-4674-8499-a80a405fc726")
-		(property "Reference" "R90"
+		(property "Reference" "R91"
 			(at 247.904 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5363,6 +5468,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C22797"
+			(at 247.904 127.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5e6eb7d5-aad1-4a7e-9828-9b0c295878cb")
 		)
@@ -5372,7 +5488,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R90")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -5465,6 +5581,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C872617"
+			(at 253.746 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bb95656b-bda7-42a8-b4cb-4fc940de6ac7")
 		)
@@ -5491,7 +5618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03daa1f8-7ba3-4d10-8f81-79b8afe22a5a")
-		(property "Reference" "L3"
+		(property "Reference" "L2"
 			(at 96.52 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5501,7 +5628,7 @@
 				)
 			)
 		)
-		(property "Value" "360 uH"
+		(property "Value" "330uH"
 			(at 96.774 51.054 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5511,7 +5638,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ThommysLib:IND-TH_L33.0-W15.6-P15.00-D1.5"
 			(at 96.52 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5564,7 +5691,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "L3")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -5581,7 +5708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0844bcbf-1923-4613-94be-e11ba6c14cd3")
-		(property "Reference" "C81"
+		(property "Reference" "C61"
 			(at 155.194 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5658,7 +5785,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19666"
 			(at 155.194 135.636 0)
 			(hide yes)
 			(show_name no)
@@ -5678,7 +5805,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "C81")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -5697,7 +5824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1be95676-99a7-498f-8230-0ff7f9bfd5ff")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0110"
 			(at 163.83 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5757,7 +5884,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0140")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -5774,7 +5901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d8c423c-48a8-43c0-855f-06468f9ac6b3")
-		(property "Reference" "R72"
+		(property "Reference" "R65"
 			(at 39.624 175.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5851,6 +5978,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 39.624 175.514 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "19843ceb-58aa-45d7-b9dc-8eee6994853b")
 		)
@@ -5860,7 +5998,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R72")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -5879,7 +6017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20f5df3d-ab5e-4764-88e5-a51111f9cfa5")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0101"
 			(at 115.57 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5939,7 +6077,109 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0130")
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ThommiesLib:IPL60R185C7")
+		(at 179.07 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21e3037e-45c1-481c-9004-4c22e3d728df")
+		(property "Reference" "Q3"
+			(at 185.42 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IPL60R185C7"
+			(at 185.42 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ThommysLib:VSON-4_L8.1-W8.1-P2.00-BL"
+			(at 184.15 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 179.07 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "C537028"
+			(at 179.07 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb4e950d-5880-4b8b-8595-720a5f6ea13e")
+		)
+		(pin "4"
+			(uuid "9b84bb32-3c77-4bc6-98ac-a8ae6e5116f2")
+		)
+		(pin "5"
+			(uuid "f845c720-ad78-416c-8512-0034bc572f4e")
+		)
+		(pin "2"
+			(uuid "7efe9e64-3d35-4e7e-a4d3-69ddf1cd1398")
+		)
+		(pin "3"
+			(uuid "e86f1c16-362b-433a-a222-6ac622ce0712")
+		)
+		(instances
+			(project "CompressorController"
+				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -5957,7 +6197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27d321d0-8048-4e91-a9b7-7c5d91277f38")
-		(property "Reference" "R80"
+		(property "Reference" "R62"
 			(at 38.1 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6032,6 +6272,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C49010117"
+			(at 38.1 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4b475475-0659-4da5-95db-e7d0e88f8c30")
 		)
@@ -6041,7 +6292,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R80")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -6059,7 +6310,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29dd330b-778d-4ea6-b886-c75631f209d2")
-		(property "Reference" "C25"
+		(property "Reference" "C75"
 			(at 223.266 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6081,7 +6332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn"
 			(at 222.5548 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6136,6 +6387,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C239291"
+			(at 223.266 65.024 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f12548ec-a9a8-4049-8e30-940c6f84d9cf")
 		)
@@ -6145,7 +6407,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "C25")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -6163,7 +6425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e21d4e5-6a07-4ed2-8119-8c117fd68376")
-		(property "Reference" "R87"
+		(property "Reference" "R88"
 			(at 246.38 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6238,6 +6500,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C49010117"
+			(at 246.38 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "49dd70c8-fead-463b-b5b9-0554c9f71fae")
 		)
@@ -6247,7 +6520,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R87")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -6264,7 +6537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f3dea77-7922-49bd-be31-2ade5ecc90ec")
-		(property "Reference" "R84"
+		(property "Reference" "R74"
 			(at 157.48 65.532 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6339,7 +6612,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17942"
 			(at 157.48 69.088 0)
 			(hide yes)
 			(show_name no)
@@ -6359,7 +6632,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R84")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -6377,7 +6650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fe43ccb-3867-4768-b413-d20bc4106d5c")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR091"
 			(at 53.34 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -6437,7 +6710,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0127")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -6454,7 +6727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "371f44b1-c65f-4891-8d6d-4f61d035af57")
-		(property "Reference" "C78"
+		(property "Reference" "C65"
 			(at 184.404 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6551,7 +6824,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "C78")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -6570,7 +6843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "389e1782-c26d-4a77-9f36-b1f0199cef6b")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR098"
 			(at 104.14 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6630,7 +6903,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0133")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -6730,7 +7003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41cafa57-6710-417b-b801-f4c46f54b63c")
-		(property "Reference" "U9"
+		(property "Reference" "U16"
 			(at 143.51 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6794,6 +7067,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2653784"
+			(at 143.51 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "2c56d305-ee38-45fa-8557-9010d108cc2d")
 		)
@@ -6812,7 +7096,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "U9")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -6829,7 +7113,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "440df11d-32e2-4bd4-946d-e1e7abea948b")
-		(property "Reference" "R73"
+		(property "Reference" "R66"
 			(at 57.404 180.594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6906,6 +7190,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C22793"
+			(at 57.404 180.594 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5234a5b9-4215-4202-9002-b6161c801ee8")
 		)
@@ -6915,7 +7210,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R73")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -6933,7 +7228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4649852b-d4e5-4af3-84fa-4f5d85138a44")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0124"
 			(at 218.44 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6993,7 +7288,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0141")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -7012,7 +7307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47c7065a-a38c-4193-852c-5e8a07b5910f")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0126"
 			(at 243.84 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7072,7 +7367,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0138")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -7089,7 +7384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b0a229d-8389-4a8a-be66-48f7f23d26e1")
-		(property "Reference" "R97"
+		(property "Reference" "R84"
 			(at 237.49 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7164,6 +7459,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C49010117"
+			(at 237.49 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2875009f-a453-4a3a-9e79-e4ff59c366a4")
 		)
@@ -7173,7 +7479,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R97")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -7191,7 +7497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "519caf2f-d652-47a3-b71b-4b9317b3962e")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0100"
 			(at 115.57 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7251,7 +7557,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0129")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -7268,7 +7574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "520f9cd7-b5c2-4411-92c4-273f56e821d4")
-		(property "Reference" "C74"
+		(property "Reference" "C56"
 			(at 120.904 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7365,7 +7671,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "C74")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -7382,7 +7688,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52b98665-9bb9-426a-ae7e-02c4bd3869b6")
-		(property "Reference" "C82"
+		(property "Reference" "C62"
 			(at 164.084 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7459,7 +7765,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C376833"
 			(at 164.084 134.366 0)
 			(hide yes)
 			(show_name no)
@@ -7479,7 +7785,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "C82")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -7497,7 +7803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52fa5ea0-ca54-4045-98e7-d9b11e404268")
-		(property "Reference" "R88"
+		(property "Reference" "R89"
 			(at 246.38 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7572,6 +7878,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C49010117"
+			(at 246.38 109.474 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7a920ad4-e4c4-4906-acd7-d3de1b5b30d5")
 		)
@@ -7581,7 +7898,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R88")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -7599,7 +7916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54e80c40-2026-4520-b8f6-6c025d136007")
-		(property "Reference" "D16"
+		(property "Reference" "D12"
 			(at 130.81 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7674,6 +7991,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C38409"
+			(at 130.81 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3ecc00d7-4af6-41e8-bd79-46169303e0e5")
 		)
@@ -7683,7 +8011,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "D16")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -7701,7 +8029,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b8633e6-6e0b-40ae-8a22-cdfc79f413d1")
-		(property "Reference" "R79"
+		(property "Reference" "R64"
 			(at 38.1 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7776,6 +8104,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2999478"
+			(at 38.1 165.354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "479f9fd3-9651-456a-b6ce-86500af5647d")
 		)
@@ -7785,91 +8124,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 179.07 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5d42b84c-290d-4653-b686-7b4ef2320208")
-		(property "Reference" "Q3"
-			(at 176.022 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IPL60R185C7"
-			(at 183.642 67.564 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 179.07 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21dc932c-04c2-4c20-b846-706fedb8aa4c")
-		)
-		(pin "2"
-			(uuid "40c068fa-ea56-4810-bfd5-872fd0673080")
-		)
-		(pin "3"
-			(uuid "45c325a3-e450-4ecf-8154-20344cfe5387")
-		)
-		(instances
-			(project "CompressorController"
-				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "Q3")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -7886,7 +8141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60d43439-bad7-4e98-b346-7ef9ebbfbc83")
-		(property "Reference" "R86"
+		(property "Reference" "R71"
 			(at 124.46 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7963,6 +8218,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C22911"
+			(at 124.46 129.5399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "51dc522e-fabe-439f-9ff7-c1be3c362473")
 		)
@@ -7972,7 +8238,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R86")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -7989,7 +8255,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62e64cbc-175b-48df-b996-33f7d1b3ac88")
-		(property "Reference" "R99"
+		(property "Reference" "R86"
 			(at 237.49 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8064,6 +8330,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2999478"
+			(at 237.49 70.104 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "83443534-f4e9-4254-9c89-33808abce9dc")
 		)
@@ -8073,7 +8350,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R99")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -8091,7 +8368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a071577-cc59-419e-8650-a84509ddcc85")
-		(property "Reference" "D15"
+		(property "Reference" "D14"
 			(at 193.3575 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8155,6 +8432,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C426668"
+			(at 193.3575 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8a0824e1-e4f1-4b44-b9e1-1387a55d67e0")
 		)
@@ -8164,7 +8452,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "D15")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -8183,7 +8471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c83cb70-a4fb-43bf-89ef-3fb06493380e")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0125"
 			(at 238.76 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8243,7 +8531,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0137")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -8261,7 +8549,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71cdd290-7ef1-4a3d-b37e-41af37a20107")
-		(property "Reference" "R61"
+		(property "Reference" "R87"
 			(at 241.808 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8336,6 +8624,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52603"
+			(at 241.808 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ced3ddb1-d501-44c4-84df-2178210ac4d0")
 		)
@@ -8345,7 +8644,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R61")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -8362,7 +8661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "735c9d2d-8bf7-4d47-9659-5c14887aab40")
-		(property "Reference" "C71"
+		(property "Reference" "C46"
 			(at 25.654 181.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8459,7 +8758,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "C71")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -8477,7 +8776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "787c7ae6-8eb8-46ce-aeca-5d2764f749d0")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR089"
 			(at 35.56 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -8537,7 +8836,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0125")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -8554,7 +8853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b96f65f-12e8-4a44-a6a7-f44230f49701")
-		(property "Reference" "C73"
+		(property "Reference" "C69"
 			(at 199.39 51.816 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8607,6 +8906,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1862"
+			(at 199.39 51.816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "349aaced-0d5c-4a79-8119-3d5a8217b4ea")
 		)
@@ -8616,7 +8926,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "C73")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -8635,7 +8945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7de85caf-6d4b-4e10-bf52-32f1b922e79b")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0115"
 			(at 184.15 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8695,7 +9005,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0136")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -8788,6 +9098,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C872617"
+			(at 261.366 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aa680e47-11df-4202-910f-66e60442c107")
 		)
@@ -8837,7 +9158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn"
 			(at 207.3148 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8892,6 +9213,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C239291"
+			(at 208.026 65.024 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2f655fda-7372-4a0c-8a67-867ab97e88a9")
 		)
@@ -8920,7 +9252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93434328-72de-4976-91ed-40fa22f92473")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0111"
 			(at 179.07 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8980,7 +9312,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0135")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -8998,7 +9330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "950f75a5-c5cf-4d6e-b0dd-ab46a6ec14d5")
-		(property "Reference" "C80"
+		(property "Reference" "C76"
 			(at 238.506 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9075,7 +9407,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1632"
 			(at 238.506 126.746 0)
 			(hide yes)
 			(show_name no)
@@ -9095,7 +9427,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "C80")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -9113,7 +9445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9557128d-de49-4439-a2ab-93d239bcc1b5")
-		(property "Reference" "R93"
+		(property "Reference" "R94"
 			(at 261.366 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9188,6 +9520,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C872617"
+			(at 261.366 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "408193f4-5eec-4a56-ba01-1cbe7f592b92")
 		)
@@ -9197,7 +9540,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R93")
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -9216,7 +9559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98440f27-9fd4-4001-ba35-3ec4b1b1b4af")
-		(property "Reference" "C76"
+		(property "Reference" "C51"
 			(at 91.44 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9238,7 +9581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L24.0mm_W10.1mm_P22.50mm_MKT"
 			(at 86.6648 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9293,7 +9636,7 @@
 				)
 			)
 		)
-		(property "JLC" ""
+		(property "JLC" "C47279087"
 			(at 87.63 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9313,7 +9656,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "C76")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -9331,7 +9674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a7c7613-65fe-451b-b403-6680a795be83")
-		(property "Reference" "U18"
+		(property "Reference" "U15"
 			(at 140.97 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9395,6 +9738,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C88567"
+			(at 140.97 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "15682330-1030-4076-804e-b00e1679e249")
 		)
@@ -9422,7 +9776,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "U18")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -9440,7 +9794,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b7d66da-008d-40ef-b611-56ffed44494c")
-		(property "Reference" "R89"
+		(property "Reference" "R90"
 			(at 246.38 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9515,6 +9869,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2999478"
+			(at 246.38 115.824 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "76a74b30-2437-4a8a-a2e1-54b60817a02f")
 		)
@@ -9524,7 +9889,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R89")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -9542,7 +9907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c5f38ff-50f4-42fe-a920-d5f7661e1572")
-		(property "Reference" "R81"
+		(property "Reference" "R77"
 			(at 186.69 52.578 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9595,6 +9960,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C333621"
+			(at 186.69 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "df6e49ff-ecb4-4252-9bc6-ca4957f3a6b1")
 		)
@@ -9604,7 +9980,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R81")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -9622,7 +9998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1001451-3757-4068-a296-1c36294ab7d6")
-		(property "Reference" "R71"
+		(property "Reference" "R69"
 			(at 101.6 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9684,7 +10060,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R71")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -9702,7 +10078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a51e1800-5ba5-4e19-ab31-3034223c0d00")
-		(property "Reference" "R94"
+		(property "Reference" "R93"
 			(at 253.746 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9777,6 +10153,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C872617"
+			(at 253.746 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a614ff1a-959a-413b-be64-392856687d91")
 		)
@@ -9786,7 +10173,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R94")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -9805,7 +10192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5562218-bc38-43db-ab64-d9afc8d4b124")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0104"
 			(at 127 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9865,7 +10252,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0132")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -9883,7 +10270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa1754e7-f012-465d-a508-6d0d30297923")
-		(property "Reference" "C79"
+		(property "Reference" "C64"
 			(at 178.816 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9980,7 +10367,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "C79")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -9997,7 +10384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b15c586d-5e2d-4dc2-afb2-d7ec361063eb")
-		(property "Reference" "D10"
+		(property "Reference" "D13"
 			(at 166.624 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10072,6 +10459,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C27975268"
+			(at 166.624 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c60463c4-3f6e-4f8e-815a-7a4605f6b74a")
 		)
@@ -10081,7 +10479,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "D10")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -10393,7 +10791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba86b716-9436-4892-a7d5-ef044148ee93")
-		(property "Reference" "C75"
+		(property "Reference" "C55"
 			(at 115.316 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10490,7 +10888,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "C75")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -10507,7 +10905,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf83bc33-ae20-46d6-9f65-40361ea40985")
-		(property "Reference" "R83"
+		(property "Reference" "R75"
 			(at 166.37 65.532 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10582,7 +10980,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17928"
 			(at 166.37 69.088 0)
 			(hide yes)
 			(show_name no)
@@ -10602,7 +11000,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R83")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -10620,7 +11018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c314480d-4070-4f22-93fc-12a3274cf5a5")
-		(property "Reference" "R100"
+		(property "Reference" "R70"
 			(at 101.6 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10673,6 +11071,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C5375467"
+			(at 101.6 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c0825a4a-a24a-470e-9091-c006d6a63a4b")
 		)
@@ -10682,7 +11091,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R100")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -10701,7 +11110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cacb95a2-b163-4a5d-9f73-f43482909583")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0109"
 			(at 154.94 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10761,7 +11170,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0139")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -10778,7 +11187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2e71f50-f79a-4de9-9c4b-31cb8c44b4f0")
-		(property "Reference" "R98"
+		(property "Reference" "R85"
 			(at 237.49 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10853,6 +11262,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C49010117"
+			(at 237.49 63.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b95f5795-7511-4e1a-99fa-115364fba9f1")
 		)
@@ -10862,7 +11282,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R98")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -10880,7 +11300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dda147ea-ce10-4336-8b21-b33bb42834e5")
-		(property "Reference" "R78"
+		(property "Reference" "R63"
 			(at 38.1 159.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10955,6 +11375,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C49010117"
+			(at 38.1 159.004 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "692b455c-44c0-42d7-a28d-757dfb7a0ff7")
 		)
@@ -10964,7 +11395,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R78")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -10982,7 +11413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "debd1463-b7ae-40a6-8376-491fbeef0db3")
-		(property "Reference" "D14"
+		(property "Reference" "D11"
 			(at 38.1 183.1974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11037,6 +11468,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C12744"
+			(at 38.1 183.1974 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ade216fd-ed41-40b8-bd32-c2bb24cc0732")
 		)
@@ -11046,7 +11488,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "D14")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -11064,7 +11506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5bca06c-5f9b-4f4f-9b06-b193abfc5259")
-		(property "Reference" "C24"
+		(property "Reference" "C73"
 			(at 215.646 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11086,7 +11528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn"
 			(at 214.9348 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -11141,6 +11583,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C239291"
+			(at 215.646 65.024 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c95503cd-dfd7-4504-99ff-61028debd414")
 		)
@@ -11150,7 +11603,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "C24")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -11169,7 +11622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7ac5db6-f0d3-4e77-b29c-71ea103ab25a")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR099"
 			(at 113.03 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -11229,7 +11682,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0131")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -11246,7 +11699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7decaaa-569f-44c6-ac72-6d00b6e80891")
-		(property "Reference" "R82"
+		(property "Reference" "R76"
 			(at 172.72 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11341,7 +11794,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R82")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -11359,7 +11812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eda82003-9f13-4fa2-9a4e-e7bdee633b84")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR088"
 			(at 25.4 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -11419,7 +11872,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0126")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -11436,7 +11889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4ab403b-ef67-4248-b6d9-d880754fb0ce")
-		(property "Reference" "R85"
+		(property "Reference" "R68"
 			(at 85.09 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11513,6 +11966,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C22962"
+			(at 85.09 90.1699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b642c910-7da2-4b45-a7b6-bb27e11b0cf4")
 		)
@@ -11522,7 +11986,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R85")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -11530,7 +11994,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 181.61 115.57 0)
+		(at 184.15 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11539,8 +12003,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7f30ae4-cc81-45ef-b074-0d1496f579de")
-		(property "Reference" "#PWR0134"
-			(at 181.61 119.38 0)
+		(property "Reference" "#PWR0112"
+			(at 184.15 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11551,7 +12015,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 184.912 113.792 0)
+			(at 187.452 113.792 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11561,7 +12025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 115.57 0)
+			(at 184.15 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11572,7 +12036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 115.57 0)
+			(at 184.15 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11583,7 +12047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 181.61 115.57 0)
+			(at 184.15 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11599,7 +12063,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "#PWR0134")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -11617,7 +12081,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f853c43b-20a5-4de9-87af-8bd5cb184625")
-		(property "Reference" "C77"
+		(property "Reference" "C54"
 			(at 112.776 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11694,7 +12158,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1609"
 			(at 112.776 129.286 0)
 			(hide yes)
 			(show_name no)
@@ -11714,7 +12178,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "C77")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -11731,7 +12195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb627be7-3e15-417b-9778-ee1c97b26834")
-		(property "Reference" "R91"
+		(property "Reference" "R73"
 			(at 159.004 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11808,6 +12272,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C22912"
+			(at 159.004 129.794 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c2769d3c-e045-4d39-8a7b-2829f8d3c15d")
 		)
@@ -11817,7 +12292,7 @@
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
-					(reference "R91")
+					(reference "R73")
 					(unit 1)
 				)
 			)
