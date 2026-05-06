@@ -4668,7 +4668,7 @@
 	)
 	(text "Rectifier heatsink"
 		(exclude_from_sim no)
-		(at 206.248 145.288 0)
+		(at 188.468 29.718 0)
 		(effects
 			(font
 				(face "Comfortaa Light")
@@ -4676,6 +4676,16 @@
 			)
 		)
 		(uuid "54f82b0c-86b4-4968-a952-2491821eae03")
+	)
+	(text "C349084"
+		(exclude_from_sim no)
+		(at 69.85 68.072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bdaece9e-b924-415d-b382-56224dd1160b")
 	)
 	(text "Following TIDA-00443"
 		(exclude_from_sim no)
@@ -4783,12 +4793,6 @@
 		(uuid "49f51f92-b4a1-4207-ab13-f4ebba5a9ddb")
 	)
 	(junction
-		(at 200.66 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c9f48f4-23b2-469d-8a40-ffd24ab44b39")
-	)
-	(junction
 		(at 66.04 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4823,12 +4827,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "875f5a76-2e92-4c4f-aa2d-f00c85e6bc21")
-	)
-	(junction
-		(at 200.66 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8920b568-b5ba-499a-a6f1-4d91a74ef2a1")
 	)
 	(junction
 		(at 231.14 74.93)
@@ -4943,16 +4941,6 @@
 			(type default)
 		)
 		(uuid "07528a78-38c2-411f-931f-ebcc9c772ee0")
-	)
-	(wire
-		(pts
-			(xy 200.66 41.91) (xy 256.54 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07e462d0-ab38-4dbd-94b9-4b0318382240")
 	)
 	(wire
 		(pts
@@ -5236,16 +5224,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 54.61) (xy 200.66 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ef6a541-8ff1-4078-ba32-92909643d309")
-	)
-	(wire
-		(pts
 			(xy 151.13 50.8) (xy 151.13 41.91)
 		)
 		(stroke
@@ -5306,7 +5284,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 62.23) (xy 200.66 62.23)
+			(xy 177.8 62.23) (xy 257.81 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5653,16 +5631,6 @@
 			(type default)
 		)
 		(uuid "891fc04b-4d4b-4b7c-a2a6-227ff41f8daa")
-	)
-	(wire
-		(pts
-			(xy 200.66 41.91) (xy 200.66 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d49208f-9416-46dd-b2eb-b85d5e476ea6")
 	)
 	(wire
 		(pts
@@ -6166,17 +6134,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 62.23) (xy 257.81 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb48e5ee-bba9-4085-8793-c1576f0b7415")
-	)
-	(wire
-		(pts
-			(xy 194.31 41.91) (xy 200.66 41.91)
+			(xy 194.31 41.91) (xy 256.54 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6299,6 +6257,366 @@
 			(justify left)
 		)
 		(uuid "fccf2046-f442-48f6-aef9-042b80d3ef24")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 205.74 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0059d847-d84a-4530-99da-57376181c0a4")
+		(property "Net Class" "HV"
+			(at 206.9465 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 30.48 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 166.4291 64.5884 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a212e2f-747c-4e55-a1bd-5d9e232a0c49")
+		(property "Net Class" "HV"
+			(at 167.6356 62.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -8.8309 32.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 64.77 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b333954-e16e-42eb-9d91-a0c0a6f0840e")
+		(property "Net Class" "HV"
+			(at 65.9765 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -110.49 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 144.78 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45bfd7cd-9cba-41f7-829d-6c20eb4914d0")
+		(property "Net Class" "HV"
+			(at 145.9865 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -30.48 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 50.8 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58d461c0-17db-4afe-9436-0dd32b61db3a")
+		(property "Net Class" "HV"
+			(at 52.0065 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -124.46 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 57.15 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ea10f7b-c269-4e37-aba9-c167585561f3")
+		(property "Net Class" "HV"
+			(at 58.3565 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -118.11 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 134.62 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6274f569-cbad-4b15-9286-7bc7ba28371e")
+		(property "Net Class" "HV"
+			(at 135.8265 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -40.64 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 78.74 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65bba246-352b-4292-9b5e-8dc4953c25a9")
+		(property "Net Class" "HV"
+			(at 79.9465 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -96.52 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 152.4 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "688e8fdc-6401-4402-a69c-1734d7625470")
+		(property "Net Class" "HV"
+			(at 153.6065 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -22.86 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 171.45 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96893afa-b810-411c-8c70-de3e407ae3be")
+		(property "Net Class" "HV"
+			(at 172.6565 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -3.81 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:L_Ferrite_Coupled")
@@ -6692,111 +7010,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 200.66 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "100450a0-542d-4cb0-9e76-ae41906203ba")
-		(property "Reference" "C45"
-			(at 201.422 50.038 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 201.168 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 200.66 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 200.66 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 200.66 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "35c635a5-7768-4a8d-b672-059761abef8c")
-		)
-		(pin "1"
-			(uuid "4a3bd52b-3807-439e-9073-81d3bbf09366")
-		)
-		(instances
-			(project "CompressorController"
-				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/7e6bf2c6-e96e-4351-baa9-641aff849a5e"
-					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:Heatsink_Pad_2Pin")
-		(at 205.74 152.4 0)
+		(at 187.96 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6807,7 +7022,7 @@
 		(fields_autoplaced yes)
 		(uuid "112fef7d-ab1d-4781-bb26-6204109d1bdd")
 		(property "Reference" "HS1"
-			(at 209.55 150.4949 0)
+			(at 191.77 34.9249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6818,7 +7033,7 @@
 			)
 		)
 		(property "Value" "22*10*25"
-			(at 209.55 153.0349 0)
+			(at 191.77 37.4649 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6829,7 +7044,7 @@
 			)
 		)
 		(property "Footprint" "ThommysLib:HEATSINK-TH_L22.0-W9.8-P14.00-D2.2"
-			(at 206.0448 153.67 0)
+			(at 188.2648 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6840,7 +7055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 206.0448 153.67 0)
+			(at 188.2648 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6851,7 +7066,7 @@
 			)
 		)
 		(property "Description" "Heatsink with electrical connection, 2 pin"
-			(at 205.74 152.4 0)
+			(at 187.96 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6862,7 +7077,7 @@
 			)
 		)
 		(property "JLC" "C4656"
-			(at 205.74 152.4 0)
+			(at 187.96 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9926,7 +10141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ThommysLib:RES-TH_BD9.5-L48.0-P52.00-D0.7"
+		(property "Footprint" "ThommysLib:RES-TH_BD9.0-L36.5-P40.50-D0.8"
 			(at 71.12 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9981,7 +10196,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17903"
+		(property "LCSC" "C349084"
 			(at 72.3901 60.96 0)
 			(hide yes)
 			(show_name no)

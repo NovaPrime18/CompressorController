@@ -2323,6 +2323,12 @@
 		(uuid "05e3d14e-bb10-4dc5-95a7-85d29c3a0b50")
 	)
 	(junction
+		(at 35.56 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dfc558f-e2dd-4639-ae24-5aab19f4510a")
+	)
+	(junction
 		(at 160.02 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2339,12 +2345,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fd29f80-5fc3-4ca8-b286-3ce75ca4349f")
-	)
-	(junction
-		(at 130.81 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25e01353-8ef8-4ba3-94ea-1a91037a7769")
 	)
 	(junction
 		(at 176.53 64.77)
@@ -2389,6 +2389,12 @@
 		(uuid "7e424479-46fd-47a9-9bb7-97c09ef54594")
 	)
 	(junction
+		(at 27.94 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "936fbc89-6886-44d9-b8d7-7db3c1460fbe")
+	)
+	(junction
 		(at 105.41 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2413,6 +2419,12 @@
 		(uuid "ae67d174-e3ec-4cd7-bb83-4c25286bd92a")
 	)
 	(junction
+		(at 138.43 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf3b5eb5-5763-4276-9bf2-1951e4bc6489")
+	)
+	(junction
 		(at 105.41 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2425,16 +2437,16 @@
 		(uuid "d0346889-81ec-42dc-8a63-b2daf2a54c3a")
 	)
 	(junction
+		(at 130.81 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4fd2b04-307e-4931-b7af-3a77d44a9701")
+	)
+	(junction
 		(at 191.77 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ead66771-be5a-4354-9411-520becc19898")
-	)
-	(junction
-		(at 29.21 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed7289dc-9a71-497e-9dc0-9929db968209")
 	)
 	(junction
 		(at 105.41 63.5)
@@ -2498,6 +2510,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 62.23) (xy 198.12 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ad8519-a825-40e3-ba3b-31800ffef42f")
+	)
+	(wire
+		(pts
 			(xy 121.92 62.23) (xy 121.92 64.77)
 		)
 		(stroke
@@ -2515,6 +2537,16 @@
 			(type default)
 		)
 		(uuid "17ccabbf-b7a4-4afb-9d5b-4d19006424f5")
+	)
+	(wire
+		(pts
+			(xy 27.94 60.96) (xy 27.94 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259b2dd0-7961-4c7c-8d1b-f9d9941d1a84")
 	)
 	(wire
 		(pts
@@ -2558,17 +2590,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 62.23) (xy 198.12 62.23)
+			(xy 130.81 62.23) (xy 138.43 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31dc2643-bceb-493e-ad87-028d6b6cfe74")
+		(uuid "378cb7fb-c28d-460e-a70d-811547e521b5")
 	)
 	(wire
 		(pts
-			(xy 130.81 72.39) (xy 130.81 73.66)
+			(xy 138.43 69.85) (xy 138.43 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2585,6 +2617,16 @@
 			(type default)
 		)
 		(uuid "3f240ed1-0ab3-478b-b1dd-5be3ab143764")
+	)
+	(wire
+		(pts
+			(xy 130.81 62.23) (xy 130.81 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4111d900-e0b9-4a03-bbd4-936635b3f211")
 	)
 	(wire
 		(pts
@@ -2605,6 +2647,16 @@
 			(type default)
 		)
 		(uuid "4871fcee-62e5-44f2-95c5-892afaad742f")
+	)
+	(wire
+		(pts
+			(xy 35.56 60.96) (xy 83.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f300672-6bef-46de-9965-f5ffc0697c4f")
 	)
 	(wire
 		(pts
@@ -2808,23 +2860,13 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 60.96) (xy 29.21 63.5)
+			(xy 35.56 60.96) (xy 35.56 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "83466410-1ff2-4ead-8c9f-dcb72e7b54f9")
-	)
-	(wire
-		(pts
-			(xy 29.21 60.96) (xy 83.82 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87504f55-ce2b-452c-85b9-57fe48a17f79")
 	)
 	(wire
 		(pts
@@ -2845,6 +2887,16 @@
 			(type default)
 		)
 		(uuid "8b7e6088-f911-4cd7-9008-a63f5d46403c")
+	)
+	(wire
+		(pts
+			(xy 35.56 68.58) (xy 35.56 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b953245-1068-4546-a354-e98eba4e199e")
 	)
 	(wire
 		(pts
@@ -2928,13 +2980,13 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 71.12) (xy 29.21 72.39)
+			(xy 27.94 60.96) (xy 35.56 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b48acc32-bf15-45a3-8978-09308400e279")
+		(uuid "b4f1c019-0f42-4d8c-b91c-2403384da744")
 	)
 	(wire
 		(pts
@@ -2975,6 +3027,16 @@
 			(type default)
 		)
 		(uuid "bf77b975-e2d9-4906-bf0e-b622180b4455")
+	)
+	(wire
+		(pts
+			(xy 27.94 71.12) (xy 27.94 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0792143-7098-4798-a94a-d67fd356d1dc")
 	)
 	(wire
 		(pts
@@ -3028,7 +3090,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 62.23) (xy 130.81 64.77)
+			(xy 138.43 62.23) (xy 138.43 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3075,6 +3137,16 @@
 			(type default)
 		)
 		(uuid "e43f4400-8c82-43c3-b3f3-43fa576bf407")
+	)
+	(wire
+		(pts
+			(xy 130.81 72.39) (xy 130.81 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ec2c4a-a5ab-432b-a014-229636817556")
 	)
 	(wire
 		(pts
@@ -3148,7 +3220,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 60.96) (xy 29.21 60.96)
+			(xy 20.32 60.96) (xy 27.94 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3358,8 +3430,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 29.21 67.31 0)
+		(lib_id "Device:C_Small")
+		(at 138.43 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3367,9 +3439,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0e87ce5b-a02f-4909-b6d9-a2d74e6e3f84")
-		(property "Reference" "C85"
-			(at 29.464 65.024 0)
+		(uuid "0e132e65-e0ad-48be-8f28-e199e39cb72b")
+		(property "Reference" "C83"
+			(at 138.684 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3379,8 +3451,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
-			(at 29.21 69.85 0)
+		(property "Value" "100nF"
+			(at 138.684 69.088 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3390,8 +3462,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
-			(at 30.1752 71.12 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 138.43 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3402,7 +3474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 67.31 0)
+			(at 138.43 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3412,8 +3484,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 29.21 67.31 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 138.43 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3424,7 +3496,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 29.21 67.31 0)
+			(at 138.43 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3435,7 +3507,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 29.21 67.31 0)
+			(at 138.43 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3445,30 +3517,8 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
-			(at 29.21 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC" "C48970715"
-			(at 29.21 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C48970715"
-			(at 29.464 65.024 0)
+		(property "LCSC" "C14663"
+			(at 138.684 65.786 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3479,15 +3529,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "129a9559-8b3c-4f35-b3c0-4d496a3f75b0")
+			(uuid "d58413ee-7f9e-41ce-80fe-2d8b20d41a31")
 		)
 		(pin "1"
-			(uuid "b774af3b-bb21-4580-a97a-2afc0f9b5653")
+			(uuid "a0c3a4be-fec6-4235-be3a-226c5e29b01a")
 		)
 		(instances
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "C85")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -3767,142 +3817,6 @@
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
 					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 130.81 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3adad1ff-535c-4034-9541-794ab1912858")
-		(property "Reference" "C86"
-			(at 131.064 66.294 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF"
-			(at 130.81 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
-			(at 131.7752 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 130.81 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 130.81 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 130.81 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 130.81 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC" "C48970715"
-			(at 130.81 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C48970715"
-			(at 131.064 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0a28c2db-f6a9-421b-b1c2-5396a08bbd01")
-		)
-		(pin "1"
-			(uuid "20c77393-a84f-41ef-b723-72625b779288")
-		)
-		(instances
-			(project "CompressorController"
-				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
-					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -5815,6 +5729,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 27.94 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76536768-71ed-49e7-933e-e57cb50d55c1")
+		(property "Reference" "#PWR0143"
+			(at 27.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 75.946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d84e99ad-4971-4417-a671-05060479dfa5")
+		)
+		(instances
+			(project "CompressorController"
+				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 121.92 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -7171,7 +7163,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 73.66 0)
+		(at 138.43 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7181,7 +7173,7 @@
 		(dnp no)
 		(uuid "ae327fe9-3f0f-4697-bb3b-1a56d8d5a9cf")
 		(property "Reference" "#PWR0148"
-			(at 130.81 80.01 0)
+			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7192,7 +7184,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 77.216 0)
+			(at 138.43 77.216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7203,7 +7195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 73.66 0)
+			(at 138.43 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7214,7 +7206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 73.66 0)
+			(at 138.43 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7225,7 +7217,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 73.66 0)
+			(at 138.43 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7249,7 +7241,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 72.39 0)
+		(at 35.56 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7259,7 +7251,7 @@
 		(dnp no)
 		(uuid "af8c0a80-58d3-415b-b970-44c296bfe2db")
 		(property "Reference" "#PWR0147"
-			(at 29.21 78.74 0)
+			(at 35.56 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7270,7 +7262,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 75.946 0)
+			(at 35.56 75.946 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7281,7 +7273,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 72.39 0)
+			(at 35.56 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7292,7 +7284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 72.39 0)
+			(at 35.56 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7303,7 +7295,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 72.39 0)
+			(at 35.56 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7477,6 +7469,142 @@
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
 					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 130.81 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bff1bb09-6370-40e8-b2a2-62c28b878331")
+		(property "Reference" "C85"
+			(at 131.064 66.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF"
+			(at 130.81 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
+			(at 131.7752 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 130.81 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 130.81 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 130.81 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 130.81 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "C48970715"
+			(at 130.81 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C48970715"
+			(at 131.064 66.294 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d9fe945c-f968-4c0c-815c-2d52f8521165")
+		)
+		(pin "1"
+			(uuid "a4b17f06-5816-4c65-83db-718833e84abd")
+		)
+		(instances
+			(project "CompressorController"
+				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -7673,6 +7801,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db25d739-5ace-4711-b4e3-8860a69ca7bf")
+		(property "Reference" "C84"
+			(at 35.814 64.516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 35.814 67.818 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 35.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 35.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 35.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 35.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 35.814 64.516 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "50873142-69e9-461a-8667-776afecc3521")
+		)
+		(pin "1"
+			(uuid "c5d8e246-1ee8-4813-acda-651c2bfbafdd")
+		)
+		(instances
+			(project "CompressorController"
+				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
+					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 43.18 53.34 0)
 		(mirror y)
@@ -7753,6 +7995,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 130.81 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e174e14c-4bb8-4870-81ea-13ccc5441b3a")
+		(property "Reference" "#PWR0142"
+			(at 130.81 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e3ff035-29c8-4004-ad4a-f82f9579fd38")
+		)
+		(instances
+			(project "CompressorController"
+				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 105.41 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -7824,6 +8144,142 @@
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
 					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 27.94 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8e86987-0454-457f-a4c1-310bfcf77dc0")
+		(property "Reference" "C86"
+			(at 28.194 65.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF"
+			(at 27.94 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
+			(at 28.9052 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 27.94 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 27.94 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 27.94 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 27.94 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "C48970715"
+			(at 27.94 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C48970715"
+			(at 28.194 65.024 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e2aff2c2-4a2c-458b-835a-ad1ff05941bb")
+		)
+		(pin "1"
+			(uuid "3d6791fb-0c9f-4a32-9eb1-3b8f04f1747a")
+		)
+		(instances
+			(project "CompressorController"
+				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/180d35d5-95ee-4c09-9f35-2254dd576dc9"
+					(reference "C86")
 					(unit 1)
 				)
 			)

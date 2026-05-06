@@ -1,0 +1,235 @@
+(footprint "RES-TH_BD9.0-L36.5-P40.50-D0.8"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "653e17b9-3e68-424f-9c9f-c328fe4cb491")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RES-TH_BD9.0-L36.5-P40.50-D0.8"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "fb37d987-79b6-4c88-afa7-8b55b4720916")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17025037-6728-43c2-b60a-e1155f3f3104")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfdaae73-e582-4ccc-8ba0-08c7712f37e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part" "C349084"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62ef2040-0588-401b-812a-6d0b0aa00c82")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -18.25 -4.5)
+		(end 18.25 -4.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a853d598-9063-42ec-9c62-194899816171")
+	)
+	(fp_line
+		(start -18.25 0)
+		(end -19.87 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e602a31-bb0d-4e6f-aaaa-826a279adf9a")
+	)
+	(fp_line
+		(start -18.25 4.5)
+		(end -18.25 -4.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d90252e-6b60-472c-84e9-998399bf9907")
+	)
+	(fp_line
+		(start 18.25 -4.5)
+		(end 18.25 4.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b29f45c7-a1af-4389-a7d1-b74a27e86c2a")
+	)
+	(fp_line
+		(start 18.25 0)
+		(end 19.87 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5620d36-f0c1-461a-afa1-7c4dab2f64cf")
+	)
+	(fp_line
+		(start 18.25 4.5)
+		(end -18.25 4.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5076f6d7-e826-4f0e-a84a-2637903aa133")
+	)
+	(fp_circle
+		(center -21.37 4.5)
+		(end -21.34 4.5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5226eea1-3a3c-48cf-ae6e-6049a2db4477")
+	)
+	(fp_line
+		(start -18.25 -4.5)
+		(end 18.25 -4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7f5a6c4-1c87-40fe-9996-62fdf6f1f5c1")
+	)
+	(fp_line
+		(start -18.25 4.5)
+		(end -18.25 -4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00a7ca09-fff8-4eb3-b1ea-972222fb41d8")
+	)
+	(fp_line
+		(start 18.25 -4.5)
+		(end 18.25 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8164fc77-94fc-410b-8a4c-f592cba4f358")
+	)
+	(fp_line
+		(start 18.25 4.5)
+		(end -18.25 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5ba3c02-c7b2-4b3b-987c-32b4d7d28788")
+	)
+	(fp_circle
+		(center -21 0)
+		(end -20.81 0)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2ab7b690-0e72-4692-9eec-a89ccd942e53")
+	)
+	(fp_circle
+		(center 21 0)
+		(end 21.19 0)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d383eb96-1375-460f-95e1-e5e33c64a57b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "939e03ba-34d4-4b0d-8a9a-fc05812f9760")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -21 0)
+		(size 1.8 1.8)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46c1f34b-b048-4b46-8f7a-57c7af607030")
+	)
+	(pad "2" thru_hole circle
+		(at 21 0)
+		(size 1.8 1.8)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "afa82dd4-a7b2-4038-899f-8f7856bf9fa9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/EasyedaFootprints/EasyEDA.3dshapes/RES-TH_BD9.0-L36.5-P42.00-D0.8.step"
+		(offset
+			(xyz 0 0 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

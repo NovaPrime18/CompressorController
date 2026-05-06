@@ -1772,16 +1772,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 22.86) (xy 125.73 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bf67770-3f11-4c9b-a1e3-192281ac2942")
-	)
-	(wire
-		(pts
 			(xy 119.38 62.23) (xy 124.46 62.23)
 		)
 		(stroke
@@ -2442,6 +2432,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 22.86) (xy 125.73 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf2e658-c73b-4c97-b792-9636448f997f")
+	)
+	(wire
+		(pts
 			(xy 166.37 109.22) (xy 209.55 109.22)
 		)
 		(stroke
@@ -2634,10 +2634,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "256de640-3db2-4c7c-9a9e-9d50cbb15e1e")
 		(property "Reference" "J4"
 			(at 186.055 118.11 0)
@@ -3188,9 +3188,9 @@
 		(at 25.4 187.96 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3952,7 +3952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
 			(at 67.31 121.92 0)
 			(hide yes)
 			(show_name no)
