@@ -1,4 +1,4 @@
-# Mains Powered VESC Motor Driver
+# Mains Powered Motor Driver
 
 > **HVAC VESC** — A mains-powered, VESC-compatible three-phase motor driver with active Power Factor Correction, built for compressor and HVAC applications.
 
