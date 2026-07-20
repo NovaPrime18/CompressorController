@@ -9,6 +9,13 @@
 
 ---
 
+<table><tr>
+<td><img src="https://raw.githubusercontent.com/NovaPrime18/CompressorController/main/FB.png" width="100%"></td>
+<td><img src="https://raw.githubusercontent.com/NovaPrime18/CompressorController/main/FC.png" width="100%"></td>
+</tr></table>
+
+---
+
 ## Overview
 
 This project is an open-hardware, mains-powered (230 V AC) three-phase motor driver that is fully compatible with the [VESC firmware](https://vesc-project.com/) ecosystem. It targets compressor and HVAC drive applications and is designed with grid compliance in mind, featuring active Power Factor Correction (PFC) to meet IEC 61000-3-2 harmonic emission limits.
