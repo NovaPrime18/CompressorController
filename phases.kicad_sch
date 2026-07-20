@@ -4558,7 +4558,7 @@
 			(justify left bottom)
 		)
 		(uuid "04c0a599-4b6f-462c-9396-176f2d25d59a")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 210.7565 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4594,7 +4594,7 @@
 			(justify left bottom)
 		)
 		(uuid "643bb25c-4a51-4e92-82c1-341ef1f49be2")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 48.1965 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4630,7 +4630,7 @@
 			(justify left bottom)
 		)
 		(uuid "781a1e7f-4424-45a1-a3a5-e2bdcbf17fd5")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 231.2035 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4666,7 +4666,7 @@
 			(justify left bottom)
 		)
 		(uuid "adc6b7fd-506a-4cd0-9827-7a6e9fc1ff3b")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 231.2035 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4702,7 +4702,7 @@
 			(justify left bottom)
 		)
 		(uuid "f04503df-256c-4461-b26e-521fbfb35c91")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 231.2035 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7778,7 +7778,7 @@
 				)
 			)
 		)
-		(property "JLC" "C104926"
+		(property "JLC" "C127691"
 			(at 198.12 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -11192,7 +11192,7 @@
 				)
 			)
 		)
-		(property "JLC" "C104926"
+		(property "JLC" "C127691"
 			(at 212.09 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -11399,7 +11399,7 @@
 				)
 			)
 		)
-		(property "JLC" "C104926"
+		(property "JLC" "C127691"
 			(at 204.47 167.64 0)
 			(hide yes)
 			(show_name no)

@@ -6049,7 +6049,7 @@
 			(justify left bottom)
 		)
 		(uuid "35b8002c-3d6a-45e0-912e-a9cbcfa069b5")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 283.1465 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6085,7 +6085,7 @@
 			(justify left bottom)
 		)
 		(uuid "4c7c2ae5-320e-462b-b0d7-46b89aee4b18")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 152.3365 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6121,7 +6121,7 @@
 			(justify left bottom)
 		)
 		(uuid "7877ad1c-0f03-4237-815e-5909f778d15c")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 270.4465 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6157,7 +6157,7 @@
 			(justify left bottom)
 		)
 		(uuid "7969e2fb-8af9-4da8-8c93-b95648a43c5d")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 133.2865 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6193,7 +6193,7 @@
 			(justify left bottom)
 		)
 		(uuid "7ab37fb7-9e07-4030-90c7-ac317463ae9d")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 39.3065 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6229,7 +6229,7 @@
 			(justify left bottom)
 		)
 		(uuid "c08d9822-30b2-4d94-a220-9b35983b6c96")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 95.1865 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7809,7 +7809,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17942"
+		(property "LCSC" "C2907468"
 			(at 144.78 114.808 0)
 			(hide yes)
 			(show_name no)
@@ -11374,7 +11374,7 @@
 				)
 			)
 		)
-		(property "Value" "43.2"
+		(property "Value" "43"
 			(at 255.016 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11417,7 +11417,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C333621"
+		(property "LCSC" "C2930460"
 			(at 255.27 98.298 0)
 			(hide yes)
 			(show_name no)
@@ -11609,7 +11609,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17942"
+		(property "LCSC" "C2907468"
 			(at 223.52 114.808 0)
 			(hide yes)
 			(show_name no)
@@ -12546,7 +12546,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17942"
+		(property "LCSC" "C2907468"
 			(at 184.15 114.808 0)
 			(hide yes)
 			(show_name no)

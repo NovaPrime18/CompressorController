@@ -1160,6 +1160,159 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:SparkGap"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "E"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SparkGap"
+				(at 0 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Spark gap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "spark gap ESD electrostatic suppression"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SG*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SparkGap_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -2.54 -0.635) (xy -0.635 0) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 2.54 -0.635) (xy 0.635 0) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SparkGap_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Varistor"
 			(pin_numbers
 				(hide yes)
@@ -4745,12 +4898,6 @@
 		(uuid "0807b869-4996-4c51-be7e-41b67c334b02")
 	)
 	(junction
-		(at 60.96 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1178577b-7e98-4cfa-bb2e-40ba6b77a868")
-	)
-	(junction
 		(at 170.18 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4796,7 +4943,13 @@
 		(at 66.04 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7710af03-66e5-469b-b6a1-53aea2fa5aaa")
+		(uuid "7c42ac64-35b9-45d1-bd00-3a0aef3e68b5")
+	)
+	(junction
+		(at 59.69 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c91bdb8-ef6c-4e04-a0d6-e200ce2cc0b7")
 	)
 	(junction
 		(at 170.18 64.77)
@@ -4829,6 +4982,12 @@
 		(uuid "875f5a76-2e92-4c4f-aa2d-f00c85e6bc21")
 	)
 	(junction
+		(at 59.69 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88cb5633-a54c-4dd8-81ad-111456d88fbe")
+	)
+	(junction
 		(at 231.14 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4839,6 +4998,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9eab5ddc-ff6d-4db1-a906-7d88f83e49ad")
+	)
+	(junction
+		(at 60.96 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5b74fda-42f0-49b6-ae17-2b71d641aa79")
 	)
 	(junction
 		(at 130.81 63.5)
@@ -4944,7 +5109,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 54.61) (xy 54.61 54.61)
+			(xy 34.29 54.61) (xy 46.99 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5024,7 +5189,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 49.53) (xy 54.61 49.53)
+			(xy 34.29 49.53) (xy 46.99 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5214,7 +5379,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 54.61) (xy 54.61 63.5)
+			(xy 46.99 54.61) (xy 46.99 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5251,6 +5416,16 @@
 			(type default)
 		)
 		(uuid "415a9a9e-6bfb-45f5-942e-61f6ba16ddb7")
+	)
+	(wire
+		(pts
+			(xy 59.69 63.5) (xy 60.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4279a86e-1909-43f6-9fa2-bff8d0d6ae80")
 	)
 	(wire
 		(pts
@@ -5504,7 +5679,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 43.18) (xy 54.61 49.53)
+			(xy 46.99 43.18) (xy 46.99 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5734,7 +5909,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 63.5) (xy 60.96 63.5)
+			(xy 59.69 58.42) (xy 59.69 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a446bb49-ece4-4ebb-a4d9-2d1722e41e01")
+	)
+	(wire
+		(pts
+			(xy 46.99 63.5) (xy 59.69 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5844,7 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 43.18) (xy 55.88 43.18)
+			(xy 46.99 43.18) (xy 48.26 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5864,7 +6049,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 43.18) (xy 66.04 43.18)
+			(xy 55.88 43.18) (xy 59.69 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5921,6 +6106,16 @@
 			(type default)
 		)
 		(uuid "c4882029-a127-4ebd-a355-e9861cea0bf9")
+	)
+	(wire
+		(pts
+			(xy 59.69 43.18) (xy 59.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95310c2-5f42-409d-ab7e-d5a0794ceb9e")
 	)
 	(wire
 		(pts
@@ -6134,6 +6329,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 43.18) (xy 66.04 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcc95c1-932b-4412-b82e-e5dbf8f19162")
+	)
+	(wire
+		(pts
 			(xy 194.31 41.91) (xy 256.54 41.91)
 		)
 		(stroke
@@ -6270,7 +6475,7 @@
 			(justify left bottom)
 		)
 		(uuid "0059d847-d84a-4530-99da-57376181c0a4")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 206.9465 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6306,7 +6511,7 @@
 			(justify left bottom)
 		)
 		(uuid "1a212e2f-747c-4e55-a1bd-5d9e232a0c49")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 167.6356 62.0484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6342,7 +6547,7 @@
 			(justify left bottom)
 		)
 		(uuid "1b333954-e16e-42eb-9d91-a0c0a6f0840e")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 65.9765 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6378,7 +6583,7 @@
 			(justify left bottom)
 		)
 		(uuid "45bfd7cd-9cba-41f7-829d-6c20eb4914d0")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 145.9865 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6405,7 +6610,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
-		(at 50.8 49.53 0)
+		(at 43.18 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6414,8 +6619,8 @@
 			(justify left bottom)
 		)
 		(uuid "58d461c0-17db-4afe-9436-0dd32b61db3a")
-		(property "Net Class" "HV"
-			(at 52.0065 46.99 0)
+		(property "Netclass" "HV"
+			(at 44.3865 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6426,7 +6631,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -124.46 17.78 0)
+			(at -132.08 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6441,7 +6646,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
-		(at 57.15 63.5 0)
+		(at 49.53 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6450,8 +6655,8 @@
 			(justify left bottom)
 		)
 		(uuid "5ea10f7b-c269-4e37-aba9-c167585561f3")
-		(property "Net Class" "HV"
-			(at 58.3565 60.96 0)
+		(property "Netclass" "HV"
+			(at 50.7365 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6462,7 +6667,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -118.11 31.75 0)
+			(at -125.73 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6486,7 +6691,7 @@
 			(justify left bottom)
 		)
 		(uuid "6274f569-cbad-4b15-9286-7bc7ba28371e")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 135.8265 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6522,7 +6727,7 @@
 			(justify left bottom)
 		)
 		(uuid "65bba246-352b-4292-9b5e-8dc4953c25a9")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 79.9465 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6558,7 +6763,7 @@
 			(justify left bottom)
 		)
 		(uuid "688e8fdc-6401-4402-a69c-1734d7625470")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 153.6065 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6585,6 +6790,42 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
+		(at 63.5 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92114989-bcf5-46a3-9dca-f290355c37a7")
+		(property "Netclass" "HV"
+			(at 64.7065 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -111.76 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
 		(at 171.45 41.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6594,7 +6835,7 @@
 			(justify left bottom)
 		)
 		(uuid "96893afa-b810-411c-8c70-de3e407ae3be")
-		(property "Net Class" "HV"
+		(property "Netclass" "HV"
 			(at 172.6565 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6620,7 +6861,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Ferrite_Coupled")
-		(at 43.18 43.18 0)
+		(at 29.21 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6631,7 +6872,7 @@
 		(fields_autoplaced yes)
 		(uuid "01752ebc-b360-4d52-9399-ef92df8a1fe7")
 		(property "Reference" "L1"
-			(at 42.926 35.56 0)
+			(at 28.956 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6641,7 +6882,7 @@
 			)
 		)
 		(property "Value" "Ferrite on input cable"
-			(at 42.926 38.1 0)
+			(at 28.956 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6651,7 +6892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 43.18 0)
+			(at 29.21 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6662,7 +6903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 43.18 0)
+			(at 29.21 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6673,7 +6914,7 @@
 			)
 		)
 		(property "Description" "Coupled inductor with ferrite core"
-			(at 43.18 43.18 0)
+			(at 29.21 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6684,7 +6925,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 43.18 43.18 0)
+			(at 29.21 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6695,7 +6936,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 43.18 43.18 0)
+			(at 29.21 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6815,7 +7056,7 @@
 				)
 			)
 		)
-		(property "JLC" "C340576"
+		(property "JLC" "C2919125"
 			(at 130.81 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6826,7 +7067,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C340576"
+		(property "LCSC" "C2919125"
 			(at 130.048 56.388 0)
 			(hide yes)
 			(show_name no)
@@ -7210,6 +7451,87 @@
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/7e6bf2c6-e96e-4351-baa9-641aff849a5e"
 					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:SparkGap")
+		(at 59.69 53.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1965f4b7-fa58-4135-ae17-58e39cd4bfd0")
+		(property "Reference" "E1"
+			(at 58.42 52.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SparkGap"
+			(at 58.42 54.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ThommysLib:sparkgap"
+			(at 57.912 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Spark gap"
+			(at 59.69 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e6a21d3f-c6ea-4470-8050-9e5e201dcfd6")
+		)
+		(pin "1"
+			(uuid "2f0cf3d9-1d35-45a4-a0fb-4037487bf66f")
+		)
+		(instances
+			(project "CompressorController"
+				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/7e6bf2c6-e96e-4351-baa9-641aff849a5e"
+					(reference "E1")
 					(unit 1)
 				)
 			)
@@ -8402,7 +8724,7 @@
 				)
 			)
 		)
-		(property "JLC" "C340576"
+		(property "JLC" "C2919125"
 			(at 130.81 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8413,7 +8735,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C340576"
+		(property "LCSC" "C2919125"
 			(at 130.048 43.688 0)
 			(hide yes)
 			(show_name no)
@@ -9839,7 +10161,7 @@
 				)
 			)
 		)
-		(property "JLC" "C340576"
+		(property "JLC" "C2919125"
 			(at 101.6 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9850,7 +10172,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C340576"
+		(property "LCSC" "C2919125"
 			(at 102.362 57.658 0)
 			(hide yes)
 			(show_name no)
@@ -9985,7 +10307,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 59.69 43.18 90)
+		(at 52.07 43.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9996,7 +10318,7 @@
 		(fields_autoplaced yes)
 		(uuid "83acff7f-93d2-4d9e-a28f-a532ea79e2b5")
 		(property "Reference" "F3"
-			(at 59.69 36.83 90)
+			(at 52.07 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10006,7 +10328,7 @@
 			)
 		)
 		(property "Value" "16A"
-			(at 59.69 39.37 90)
+			(at 52.07 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10016,7 +10338,7 @@
 			)
 		)
 		(property "Footprint" "ThommysLib:FUSE-TH_L29.0-W10.0_XF-103"
-			(at 59.69 44.958 90)
+			(at 52.07 44.958 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10027,7 +10349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 43.18 0)
+			(at 52.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10038,7 +10360,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 59.69 43.18 0)
+			(at 52.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10049,7 +10371,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 59.69 43.18 90)
+			(at 52.07 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10060,7 +10382,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 59.69 43.18 90)
+			(at 52.07 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10071,7 +10393,7 @@
 			)
 		)
 		(property "JLC" "C41371865"
-			(at 59.69 43.18 90)
+			(at 52.07 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10082,7 +10404,7 @@
 			)
 		)
 		(property "LCSC" "C41371865"
-			(at 59.69 36.83 0)
+			(at 52.07 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
