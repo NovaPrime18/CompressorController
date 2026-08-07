@@ -913,12 +913,12 @@
       "PFC"
     ],
     [
-      "82a015bc-92a9-4d4a-b03d-13313fc8d6b3",
-      "Filters"
-    ],
-    [
       "180d35d5-95ee-4c09-9f35-2254dd576dc9",
       "LV Power"
+    ],
+    [
+      "82a015bc-92a9-4d4a-b03d-13313fc8d6b3",
+      "Filters"
     ]
   ],
   "text_variables": {},

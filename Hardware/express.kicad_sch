@@ -2645,6 +2645,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 81.28) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3ad3ad-9e39-4c97-ac86-7e947225da61")
+	)
+	(wire
+		(pts
 			(xy 80.01 71.12) (xy 81.28 71.12)
 		)
 		(stroke
@@ -2672,16 +2682,6 @@
 			(type default)
 		)
 		(uuid "2360d6a7-894a-40ef-8780-ab5738b9a059")
-	)
-	(wire
-		(pts
-			(xy 147.32 81.28) (xy 149.86 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "237e2877-83e7-4f8b-878d-b5d6aa1e58ca")
 	)
 	(wire
 		(pts
@@ -2955,16 +2955,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 78.74) (xy 149.86 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6de68d46-07b5-4010-891d-1b0245783370")
-	)
-	(wire
-		(pts
 			(xy 96.52 93.98) (xy 97.79 93.98)
 		)
 		(stroke
@@ -3082,6 +3072,16 @@
 			(type default)
 		)
 		(uuid "9572f333-8675-4c64-8343-018e9e76f95a")
+	)
+	(wire
+		(pts
+			(xy 142.24 78.74) (xy 149.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982ec29e-7fc0-49c6-bdf6-d3e6b319740d")
 	)
 	(wire
 		(pts
@@ -3455,7 +3455,7 @@
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
-		(at 147.32 81.28 180)
+		(at 142.24 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3466,7 +3466,7 @@
 	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
-		(at 147.32 78.74 180)
+		(at 142.24 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
