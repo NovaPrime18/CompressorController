@@ -1,0 +1,997 @@
+Control Integrated POwer System
+(CIPOS™)
+
+IKCM30F60GD
+
+
+
+
+Datasheet
+
+
+
+
+Datasheet          Please read the Important Notice and Warnings at the end of this document        V 2.5
+www.infineon.com                                 page 1 of 17                                  2019-10-16
+Control Integrated POwer System (CIPOS™)
+IKCM30F60GD
+
+
+
+Table of contents
+
+
+Table of contents ............................................................................................................................ 2
+CIPOS™ Control Integrated POwer System ........................................................................................ 3
+Features    .................................................................................................................................................................. 3
+Target Applications ...................................................................................................................................................... 3
+Description .................................................................................................................................................................. 3
+System Configuration .................................................................................................................................................. 3
+Pin Configuration ........................................................................................................................... 4
+Internal Electrical Schematic ........................................................................................................... 4
+Pin Assignment............................................................................................................................... 5
+Pin Description ............................................................................................................................... 5
+HIN(U, V, W) and LIN(U, V, W) (Low side and high side control pins, Pin 7 - 12)......................................................... 5
+VFO (Fault-output and NTC, Pin 14) ............................................................................................................................ 6
+ITRIP (Over current detection function, Pin 15).......................................................................................................... 6
+VDD, VSS (Low side control supply and reference, Pin 13, 16) ................................................................................... 6
+VB(U, V, W) and VS(U, V, W) (High side supplies, Pin 1 - 6) .......................................................................................... 6
+NW, NV, NU (Low side emitter, Pin 17 - 19) ................................................................................................................. 6
+W, V, U (High side emitter and low side collector, Pin 20 - 22) ................................................................................... 6
+P (Positive bus input voltage, Pin 23) .......................................................................................................................... 6
+Absolute Maximum Ratings.............................................................................................................. 7
+Module Section ............................................................................................................................................................ 7
+Inverter Section............................................................................................................................................................ 7
+Control Section ............................................................................................................................................................ 7
+Recommended Operation Conditions ............................................................................................... 8
+Static Parameters ........................................................................................................................... 9
+Dynamic Parameters ...................................................................................................................... 10
+Bootstrap Parameters .................................................................................................................... 10
+Thermistor .................................................................................................................................... 11
+Mechanical Characteristics and Ratings ........................................................................................... 11
+Circuit of a Typical Application ........................................................................................................ 12
+Switching Times Definition ............................................................................................................. 13
+Electrical characteristic.................................................................................................................. 14
+Package Outline ............................................................................................................................ 15
+Revision history............................................................................................................................. 16
+
+
+
+
+Datasheet                                                                          2 of 17                                                                             V 2.5
+                                                                                                                                                                 2019-10-16
+Control Integrated POwer System (CIPOS™)
+IKCM30F60GD
+
+
+
+
+CIPOS™
+Control Integrated POwer System
+Dual In-Line Intelligent Power Module
+3Φ -bridge 600V / 30A
+
+Features                                                       Description
+Fully isolated Dual In-Line molded module                      The CIPOS™ module family offers the chance for
+ TRENCHSTOP™ IGBTs                                            integrating various power and control components
+ Rugged SOI gate driver technology with stability             to increase reliability, optimize PCB size and system
+  against transient and negative voltage                       costs.
+ Allowable negative VS potential up to -11V for               It is designed to control three phase AC motors and
+  signal transmission at VBS=15V                               permanent magnet motors in variable speed drives
+ Integrated bootstrap functionality                           for applications like an air conditioning, a
+ Over current shutdown                                        refrigerator and a washing machine. The package
+ Temperature monitor                                          concept is specially adapted to power applications,
+                                                               which need good thermal conduction and electrical
+ Under-voltage lockout at all channels
+                                                               isolation, but also EMI-save control and overload
+ Low side emitter pins accessible for all phase
+                                                               protection.
+  current monitoring (open emitter)
+ Cross-conduction prevention                                  TRENCHSTOP™ IGBTs and anti parallel diodes are
+ All of 6 switches turn off during protection                 combined with an optimized SOI gate driver for
+ Lead-free terminal plating; RoHS compliant                   excellent electrical performance.
+ Very low thermal resistance due to DCB
+
+                                                               System Configuration
+Target Applications
+                                                                3 half bridges with TRENCHSTOP™ IGBTs and
+ Home appliances
+                                                                 anti parallel diodes
+ Low power motor drives
+                                                                3Φ SOI gate driver
+                                                                Thermistor
+                                                                Pin-to-heatsink clearance distance typ. 1.6mm
+
+
+
+
+Datasheet                                            3 of 17                                                    V 2.5
+                                                                                                          2019-10-16
+Control Integrated POwer System (CIPOS™)
+IKCM30F60GD
+
+
+Pin Configuration
+                                                     Bottom View
+
+
+                                                                   (24) NC
+                        (1) VS(U)
+                        (2) VB(U)
+                                                                   (23) P
+                        (3) VS(V)
+                        (4) VB(V)
+                                                                   (22) U
+                        (5) VS(W)
+                        (6) VB(W)
+                                                                   (21) V
+
+                        (7) HIN(U)
+                        (8) HIN(V)                                 (20) W
+                        (9) HIN(W)
+                        (10) LIN(U)
+                        (11) LIN(V)                                (19) NU
+                        (12) LIN(W)
+                        (13) VDD
+                        (14) VFO                                   (18) NV
+                        (15) ITRIP
+                         (16) VSS
+                                                                   (17) NW
+
+
+
+Figure 1    Pin configuration
+
+
+Internal Electrical Schematic
+                                                                    NC (24)
+
+
+
+
+                                                                     P (23)
+                         (1) VS(U)
+                         (2) VB(U)         VB1            HO1
+
+                                                  RBS1
+                                                           VS1       U (22)
+
+                         (3) VS(V)
+                         (4) VB(V)         VB2            HO2
+
+                                              RBS2                   V (21)
+                                                           VS2
+
+                         (5) VS(W)
+                         (6) VB(W)                        HO3
+                                           VB3
+
+                                            RBS3           VS3       W (20)
+
+
+
+                         (7) HIN(U)        HIN1            LO1
+                         (8) HIN(V)        HIN2
+                                                                    NU (19)
+                         (9) HIN(W)        HIN3
+                         (10) LIN(U)       LIN1
+                         (11) LIN(V)       LIN2            LO2
+
+                         (12) LIN(W)       LIN3
+                                                                    NV (18)
+                         (13) VDD          VDD
+                         (14) VFO          VFO
+                                                           LO3
+                         (15) ITRIP        ITRIP
+                         (16) VSS          VSS                      NW (17)
+                                       Thermistor
+
+
+
+Figure 2    Internal schematic
+
+
+Datasheet                                                4 of 17                    V 2.5
+                                                                              2019-10-16
+Control Integrated POwer System (CIPOS™)
+IKCM30F60GD
+
+
+Pin Assignment
+  Pin Number           Pin Name                                             Pin Description
+       1           VS(U)             U-phase high side floating IC supply offset voltage
+       2           VB(U)             U-phase high side floating IC supply voltage
+       3           VS(V)             V-phase high side floating IC supply offset voltage
+       4           VB(V)             V-phase high side floating IC supply voltage
+       5           VS(W)             W-phase high side floating IC supply offset voltage
+       6           VB(W)             W-phase high side floating IC supply voltage
+       7           HIN(U)            U-phase high side gate driver input
+       8           HIN(V)            V-phase high side gate driver input
+       9           HIN(W)            W-phase high side gate driver input
+       10          LIN(U)            U-phase low side gate driver input
+       11          LIN(V)            V-phase low side gate driver input
+       12          LIN(W)            W-phase low side gate driver input
+       13          VDD               Low side control supply
+       14          VFO               Fault output / Temperature monitor
+       15          ITRIP             Over current shutdown input
+       16          VSS               Low side control negative supply
+       17          NW                W-phase low side emitter
+       18          NV                V-phase low side emitter
+       19          NU                U-phase low side emitter
+       20          W                 Motor W-phase output
+       21          V                 Motor V-phase output
+       22          U                 Motor U-phase output
+       23          P                 Positive bus input voltage
+       24          NC                No Connection
+
+
+Pin Description
+HIN(U, V, W) and LIN(U, V, W) (Low side and high
+side control pins, Pin 7 - 12)
+These pins are positive logic and they are                                                                                     CIPOSTM
+responsible for the control of the integrated IGBT.                                                     Schmitt-Trigger
+
+The Schmitt-trigger input thresholds of them are                      HINx
+                                                                      LINx
+                                                                                                                           INPUT NOISE
+                                                                                                                              FILTER
+such to guarantee LSTTL and CMOS compatibility                                     5k            UZ=10.5V
+                                                                                                              SWITCH LEVEL
+                                                                      VSS
+down to 3.3V controller outputs. Pull-down resistor                                                           VIH; VIL
+
+of about 5k is internally provided to pre-bias                     Figure 3          Input pin structure
+inputs during supply start-up and a zener clamp is
+provided for pin protection purposes. Input                            a)                 tFILIN                 b)              tFILIN
+Schmitt-trigger and noise filter provide beneficial
+                                                                            HIN                                   HIN
+noise rejection to short input pulses.                                      LIN                                   LIN
+
+                                                                                                                              high
+The noise filter suppresses control pulses which are                        HO                                        HO
+                                                                                            low
+below the filter time tFILIN. The filter acts according                     LO                                        LO
+
+to Figure 4.                                                        Figure 4          Input filter timing diagram
+Datasheet                                                 5 of 17                                                                               V 2.5
+                                                                                                                                          2019-10-16
+Control Integrated POwer System (CIPOS™)
+IKCM30F60GD
+
+
+It is not recommended for proper work to provide                   VDD, VSS (Low side control supply and reference,
+input pulse-width lower than 1µs.                                  Pin 13, 16)
+The integrated gate drive provides additionally a                  VDD is the control supply and it provides power
+shoot through prevention capability which avoids                   both to input logic and to output power stage.
+the simultaneous on-state of two gate drivers of the               Input logic is referenced to VSS ground.
+same leg (i.e. HO1 and LO1, HO2 and LO2, HO3 and
+                                                                   The under-voltage circuit enables the device to
+LO3). When two inputs of a same leg are activated,
+                                                                   operate at power on when a supply voltage of at
+only former activated one is activated so that the
+                                                                   least a typical voltage of VDDUV+ = 12.1V is present.
+leg is kept steadily in a safe state.
+                                                                   The IC shuts down all the gate drivers power
+A minimum deadtime insertion of typically 380ns is
+                                                                   outputs, when the VDD supply voltage is below
+also provided by driver IC, in order to reduce cross-
+                                                                   VDDUV- = 10.4V. This prevents the external power
+conduction of the external power switches.
+                                                                   switches from critically low gate voltage levels
+VFO (Fault-output and NTC, Pin 14)                                 during on-state and therefore from excessive power
+                                                                   dissipation.
+The VFO pin indicates a module failure in case of
+under voltage at pin VDD or in case of triggered                   VB(U, V, W) and VS(U, V, W) (High side supplies,
+over current detection at ITRIP. A pull-up resistor is             Pin 1 - 6)
+externally required.
+                                                                   VB to VS is the high side supply voltage. The high
+                                           CIPOS   TM              side circuit can float with respect to VSS following
+   VDD
+                                                                   the external high side power device emitter voltage.
+                    RON,FLT       From ITRIP - Latch
+   VFO
+                              1
+                                                                   Due to the low power consumption, the floating
+   VSS                            From UV detection
+                                                                   driver stage is supplied by integrated bootstrap
+            Thermistor                                             circuit.
+Figure 5      Internal circuit at pin VFO                          The under-voltage detection operates with a rising
+                                                                   supply threshold of typical VBSUV+ = 12.1V and a
+The same pin provides direct access to the NTC,                    falling threshold of VBSUV- = 10.4V.
+which is referenced to VSS. An external pull-up
+resistor connected to +5V ensures that the resulting               VS(U, V, W) provide a high robustness against
+voltage can be directly connected to the                           negative voltage in respect of VSS of -50V
+microcontroller.                                                   transiently. This ensures very stable designs even
+                                                                   under rough conditions.
+ITRIP (Over current detection function, Pin 15)
+                                                                   NW, NV, NU (Low side emitter, Pin 17 - 19)
+CIPOS™ provides an over current detection
+                                                                   The low side emitters are available for current
+function by connecting the ITRIP input with the
+                                                                   measurements of each phase leg. It is
+IGBT collector current feedback. The ITRIP
+                                                                   recommended to keep the connection to pin VSS as
+comparator threshold (typ. 0.47V) is referenced to
+                                                                   short as possible in order to avoid unnecessary
+VSS ground. An input noise filter (typ.: tITRIPMIN =
+                                                                   inductive voltage drops.
+530ns) prevents the driver to detect false over-
+current events.                                                    W, V, U (High side emitter and low side collector,
+                                                                   Pin 20 - 22)
+Over current detection generates a shutdown of all
+outputs of the gate driver after the shutdown                      These pins are motor U, V, W input pins.
+propagation delay of typically 1000ns.                             P (Positive bus input voltage, Pin 23)
+The fault-clear time is set to minimum 40µs.                       The high side IGBTs are connected to the bus
+                                                                   voltage. It is noted that the bus voltage does not
+                                                                   exceed 450V.
+
+
+
+
+Datasheet                                                6 of 17                                                    V 2.5
+                                                                                                              2019-10-16
+Control Integrated POwer System (CIPOS™)
+IKCM30F60GD
+
+
+Absolute Maximum Ratings
+(VDD = 15V and TJ = 25°C, if not stated otherwise)
+
+Module Section
+                                                                                              Value
+                    Description                      Condition           Symbol                                Unit
+                                                                                       min            max
+    Storage temperature range                                               Tstg       -40            125       °C
+    Isolation test voltage                    RMS, f = 60Hz, t = 1min       VISOL      2000            -         V
+    Operating case temperature range          Refer to Figure 6              TC        -40            125       °C
+
+
+
+Inverter Section
+                                                                                              Value
+                    Description                      Condition           Symbol                                Unit
+                                                                                       min            max
+    Max. blocking voltage                     IC = 250µA                    VCES       600             -         V
+    DC link supply voltage of P-N             Applied between P-N           VPN         -             450        V
+    DC link supply voltage (surge) of P-N     Applied between P-N         VPN(surge)    -             500        V
+    Output current                            TC = 25°C, TJ < 150°C          IC        -30            30         A
+                                              TC = 25°C,
+    Maximum peak output current                                            IC(peak)    -60            60         A
+                                              less than 1ms
+    Short circuit withstand time1             VDC ≤ 400V, TJ = 150°C         tSC        -              5        µs
+    Power dissipation per IGBT                                              Ptot        -             79.1       W
+    Operating junction temperature range                                     TJ        -40            150        °C
+    Single IGBT thermal resistance,
+                                                                            RthJC       -             1.58     K/W
+    junction-case
+    Single diode thermal resistance,
+                                                                           RthJCD       -             2.05     K/W
+    junction-case
+
+
+
+Control Section
+                                                                                              Value
+                    Description                      Condition           Symbol                                Unit
+                                                                                       min            max
+    Module supply voltage                                                   VDD         -1            20         V
+    High side floating supply voltage
+                                                                            VBS         -1            20         V
+    (VB vs. VS)
+                                                                            VIN         -1            10
+    Input voltage                             LIN, HIN, ITRIP                                                    V
+                                                                           VITRIP       -1            10
+    Switching frequency                                                     fPWM        -             20        kHz
+
+1
+    Allowed number of short circuits: <1000; time between short circuits: >1s.
+Datasheet                                                  7 of 17                                                 V 2.5
+                                                                                                             2019-10-16
+Control Integrated POwer System (CIPOS™)
+IKCM30F60GD
+
+
+Recommended Operation Conditions
+All voltages are absolute voltages referenced to VSS -potential unless otherwise specified.
+                                                                                  Value
+                       Description                   Symbol                                               Unit
+                                                                     min           typ        max
+    DC link supply voltage of P-N                       VPN            0            -          400          V
+    High side floating supply voltage (VB vs. VS)       VBS          13.5           -          18.5         V
+    Low side supply voltage                             VDD          14.5          16          18.5         V
+                                                       ΔVBS,          -1            -           1
+    Control supply variation                                                                              V/µs
+                                                       ΔVDD           -1            -           1
+                                                        VIN            0            -           5
+    Logic input voltages LIN, HIN, ITRIP                                                                    V
+                                                       VITRIP          0            -           5
+    Between VSS - N (including surge)                   VSS           -5            -           5           V
+
+
+
+
+Figure 6        TC measurement point1
+
+
+
+
+1
+ Any measurement except for the specified point in figure 6 is not relevant for the temperature verification and
+brings wrong or different information.
+Datasheet                                             8 of 17                                                 V 2.5
+                                                                                                        2019-10-16
+Control Integrated POwer System (CIPOS™)
+IKCM30F60GD
+
+
+Static Parameters
+(VDD = 15V and TJ = 25°C, if not stated otherwise)
+                                                                                       Value
+              Description                            Condition       Symbol                              Unit
+                                                                                min     typ    max
+                                           IC = 20A
+ Collector-Emitter saturation voltage      TJ = 25°C                 VCE(sat)    -     1.55    2.05        V
+                                                150°C                            -     1.85      -
+
+                                           IF = 20A
+ Diode forward voltage                     TJ = 25°C                    VF       -     1.55    2.05        V
+                                                150°C                            -      1.6      -
+
+ Collector-Emitter leakage current         VCE = 600V                  ICES      -       -      1         mA
+
+ Logic "1" input voltage (LIN, HIN)                                    VIH       -      2.1    2.5         V
+
+ Logic "0" input voltage (LIN, HIN)                                    VIL      0.7     0.9     -          V
+
+ ITRIP positive going threshold                                       VIT,TH+   400    470     540        mV
+
+ ITRIP input hysteresis                                               VIT,HYS   40      70      -         mV
+
+ VDD and VBS supply under voltage                                    VDDUV+
+                                                                                10.8   12.1    13.0        V
+ positive going threshold                                            VBSUV+
+
+ VDD and VBS supply under voltage                                     VDDUV-
+                                                                                9.5    10.4    11.2        V
+ negative going threshold                                             VBSUV-
+
+ VDD and VBS supply under voltage                                    VDDUVH
+                                                                                1.0     1.7     -          V
+ lockout hysteresis                                                  VBSUVH
+
+ Quiescent VBx supply current
+                                           HIN = 0V                    IQBS      -     300     500        µA
+ (VBx only)
+
+ Quiescent VDD supply current
+                                           LIN = 0V, HINX = 5V         IQDD      -     370     900        µA
+ (VDD only)
+
+ Input bias current                        VIN = 5V                    IIN+      -      1      1.5        mA
+
+ Input bias current                        VIN = 0V                    IIN-      -      2       -         µA
+
+ ITRIP input bias current                  VITRIP = 5V                IITRIP+    -      65     150        µA
+
+ VFO input bias current                    VFO = 5V, VITRIP = 0V       IFO       -      60      -         µA
+
+ VFO output voltage                        IFO = 10mA, VITRIP = 1V     VFO       -      0.5     -          V
+
+
+
+
+Datasheet                                                9 of 17                                            V 2.5
+                                                                                                      2019-10-16
+Control Integrated POwer System (CIPOS™)
+IKCM30F60GD
+
+
+Dynamic Parameters
+(VDD = 15V and TJ = 25°C, if not stated otherwise)
+                                                                                             Value
+                 Description                          Condition            Symbol                             Unit
+                                                                                       min    typ    max
+    Turn-on propagation delay time                                           ton        -     600     -        ns
+                                              VLIN, HIN = 5V,
+    Turn-on rise time                                                         tr        -      45     -        ns
+                                              IC = 20A,
+    Turn-on switching time                                                  tc(on)      -     180     -        ns
+                                              VDC = 300V
+    Reverse recovery time                                                    trr        -     150     -        ns
+    Turn-off propagation delay time           VLIN, HIN = 0V,                toff       -     900     -        ns
+    Turn-off fall time                        IC = 20A,                       tf        -      40     -        ns
+    Turn-off switching time                   VDC = 300V                    tc(off)     -     140     -        ns
+    Short circuit propagation delay time      From VIT,TH+ to 10% ISC       tSCP        -    1470     -        ns
+    Input filter time ITRIP                   VITRIP = 1V                  tITRIPmin    -     530     -        ns
+    Input filter time at LIN, HIN for turn
+                                              VLIN, HIN = 0V & 5V           tFILIN      -    290      -        ns
+    on and off
+    Fault clear time after ITRIP-fault        VITRIP = 1V                   tFLTCLR    40      -      -        µs
+    Deadtime between low side and high
+                                                                           DTPWM       2.0     -      -        µs
+    side
+    Deadtime of gate drive circuit                                          DTIC        -    380      -        ns
+                                              VDC = 300V, IC = 20A
+    IGBT turn-on energy (includes reverse
+                                              TJ = 25°C                      Eon        -    698      -        µJ
+    recovery of diode)
+                                                   150°C                                -    960      -
+                                              VDC = 300V, IC = 20A
+    IGBT turn-off energy                      TJ = 25°C                      Eoff       -    435      -        µJ
+                                                   150°C                                -    620      -
+                                              VDC = 300V, IC = 20A
+    Diode recovery energy                     TJ = 25°C                      Erec       -     95      -        µJ
+                                                   150°C                                -    174      -
+
+
+
+Bootstrap Parameters
+(TJ = 25°C, if not stated otherwise)
+                                                                                             Value
+              Description                        Condition                 Symbol                             Unit
+                                                                                       min    typ    max
+    Repetitive peak reverse voltage                                         VRRM       600     -      -         V
+                                       VS2 or VS3 = 300V, TJ = 25°C                           35
+    Bootstrap diode resistance of      VS2 and VS3 = 0V, TJ = 25°C                            40
+                                                                             RBS1       -             -         Ω
+    U-phase1                           VS2 or VS3 = 300V, TJ = 125°C                          50
+                                       VS2 and VS3 = 0V, TJ = 125°C                           65
+    Reverse recovery time              IF = 0.6A, di/dt = 80A/µs            trr_BS      -     50      -        ns
+    Forward voltage drop               IF = 20mA, VS2 and VS3 = 0V          VF_BS       -     2.6     -        V
+
+
+
+1
+    RBS2 and RBS3 have same values to RBS1.
+Datasheet                                                       10 of 17                                         V 2.5
+                                                                                                           2019-10-16
+Control Integrated POwer System (CIPOS™)
+IKCM30F60GD
+
+
+Thermistor
+                                                                                                                                                                            Value
+                                          Description                                                                    Condition               Symbol                                       Unit
+                                                                                                                                                                   min       typ     max
+            Resistor                                                                                               TNTC = 25°C                       RNTC           -        85       -        k
+            B-constant of NTC
+                                                                                                                                                B(25/100)           -       4092      -         K
+            (Negative Temperature Coefficient)
+
+
+                              3500
+                                                                             35
+
+                                                                                                       Min.
+
+
+
+
+Thermistor resistance [kΩ ]
+                              3000                                           30
+                                                                                                       Typ.
+
+
+
+
+                                               Thermistor resistance [kΩ ]
+                                                                                                       Max.
+                                                                             25
+                              2500
+                                                                             20
+
+
+                              2000                                           15
+
+
+                                                                             10
+
+                              1500
+                                                                             5
+
+
+                                                                             0
+                              1000                                            50 55 60 65 70 75 80 85 90 95 100 105 110 115 120 125 130
+                                                                                            Thermistor temperature [℃]
+
+
+                              500
+
+
+                                0
+                                 -40 -30 -20 -10 0                                10 20 30 40 50 60 70 80 90 100 110 120 130
+                                                                              Thermistor temperature [℃]
+Figure 7                                 Thermistor resistance – temperature curve and table
+                                         (For more information, please refer to the application note ‘AN2016-10 CIPOS Mini Technical description’)
+
+
+
+Mechanical Characteristics and Ratings
+                                                                                                                                                                         Value
+                                         Description                                                                       Condition                                                          Unit
+                                                                                                                                                            min           typ       max
+            Mounting torque                                                                                     M3 screw and washer                         0.49            -       0.78       Nm
+            Flatness                                                                                            Refer to Figure 8                           -50             -       100        µm
+            Weight                                                                                                                                            -           6.58        -         g
+
+
+
+
+Figure 8                                 Flatness measurement position
+
+
+Datasheet                                                                                                                                 11 of 17                                               V 2.5
+                                                                                                                                                                                           2019-10-16
+Control Integrated POwer System (CIPOS™)
+IKCM30F60GD
+
+
+Circuit of a Typical Application
+                                                                                                                          NC (24)
+
+
+
+
+                                                                                                                           P (23)
+                                                                    (1) VS(U)
+
+
+                                                                    (2) VB(U)
+                                                                                           VB1                HO1
+
+
+                                                                                                    RBS1                   U (22)
+                                                                                                              VS1
+
+                                                                    (3) VS(V)
+
+                                                         #4
+                                                                    (4) VB(V)
+                                                                                           VB2                HO2
+
+
+                                                                                                                           V (21)
+                                                                                                  RBS2        VS2                        3-ph AC
+                                                                                                                                          Motor
+                                                                    (5) VS(W)
+
+
+                                                                    (6) VB(W)                                 HO3
+                                                                                           VB3
+
+
+                                                                                                                           W (20)
+                                                                                            RBS3              VS3
+
+                                                               #1                                                                             #5
+                                                                    (7) HIN(U)
+                                                                                         HIN1
+                                                                                                              LO1
+                                                                    (8) HIN(V)
+                                                                                         HIN2
+
+                                                                    (9) HIN(W)                                            NU (19)
+                                                                                         HIN3
+                                                                    (10) LIN(U)
+                                                                                         LIN1
+
+
+                  Micro                                             (11) LIN(V)
+                                                                                         LIN2
+                                                                                                                                                   #7
+                                                                                                              LO2
+                                                                                                                                    #6
+                 Controller                                         (12) LIN(W)
+                                                                                         LIN3
+                                                                                                                          NV (18)
+
+                                              VDD line
+                                                                    (13) VDD
+                                                                                         VDD                                                               Power
+                                                                    (14) VFO
+                                                                                                                                                          GND line
+                                                                                         VFO
+
+                                                                        (15) ITRIP                            LO3
+                                                                                         ITRIP
+                                    5 or 3.3V line                      (16) VSS         VSS                              NW (17)               Control
+
+                                                                                     Thermistor                                                GND line
+                                            #3
+                                                                                                U-phase current sensing
+                Temperature monitor
+                                                              #2                                V-phase current sensing
+                                                                                                W-phase current sensing
+               <Signal for protection>
+                                                                          <Signal for protection>
+
+
+
+
+Figure 9        Typical application circuit
+
+
+
+1.   Input circuit
+     -    To reduce input signal noise by high speed switching, the RIN and CIN filter circuit should be mounted. (100Ω, 1nF)
+     -    CIN should be placed as close to VSS pin as possible.
+2.   Itrip circuit
+     -    To prevent protection function errors, CITRIP should be placed as close to Itrip and VSS pins as possible.
+3.   VFO circuit
+     -    VFO output is an open drain output. This signal line should be pulled up to the positive side of the 5V/3.3V logic
+          power supply with a proper resistor RPU.
+     -    It is recommended that RC filter be placed as close to the controller as possible.
+4.   VB-VS circuit
+     -    Capacitor for high side floating supply voltage should be placed as close to VB and VS pins as possible.
+5.   Snubber capacitor
+
+     -    The wiring between CIPOS™ Mini and snubber capacitor including shunt resistor should be as short as possible.
+
+6.   Shunt resistor
+     -    The shunt resistor of SMD type should be used for reducing its stray inductance.
+7.   Ground pattern
+     -    Ground pattern should be separated at only one point of shunt resistor as short as possible.
+
+
+
+
+Datasheet                                                                            12 of 17                                                                              V 2.5
+                                                                                                                                                                     2019-10-16
+Control Integrated POwer System (CIPOS™)
+IKCM30F60GD
+
+
+Switching Times Definition
+
+
+       HINx                                                            2.1V
+       LINx
+                            0.9V
+                                                                                                  trr
+                                          toff                               ton
+                                                                                                        10%
+            iCx
+                                                 90%                               90%
+
+
+                                                      tf                            tr
+                                   10%                                                                  10%
+                                                           10%         10%
+        vCEx
+                                            tc(off)                                      tc(on)
+
+Figure 10         Switching times definition
+
+
+
+
+Datasheet                                                   13 of 17                                                V 2.5
+                                                                                                              2019-10-16
+            Control Integrated POwer System (CIPOS™)
+            IKCM30F60GD
+
+
+          Electrical characteristic
+                                                                       60                                                                                                                                    60                                                                                                                                60
+                                                                                TJ=25℃                                                                                                                                 VDD=15V
+                                                                       55                                                                                                                                    55                                                                                                                                55
+
+
+
+
+                  Ic, Collector - Emitter current [A]                                                                                               Ic, Collector - Emitter current [A]                                                                                                      IF, Emitter - Collector current [A]
+                                                                       50                                                                                                                                    50                                                                                                                                50
+
+                                                                       45                                                                                                                                    45                                                                                                                                45
+
+                                                                       40                                                                                                                                    40                                                                                                                                40
+
+                                                                       35                                                                                                                                    35                                                                                                                                35
+
+                                                                       30                                                                                                                                    30                                                                                                                                30
+
+                                                                       25                                                                                                                                    25                                                                                                                                25
+                                                                                                                          VDD=15V
+                                                                       20                                                 VDD=20V                                                                            20                                                                                                                                20
+                                                                                                                                                                                                                                                            TJ=25℃                                                                                                                                       TJ=25℃
+                                                                       15                                                                                                                                    15                                                                                                                                15
+                                                                                                                                                                                                                                                            TJ=150℃                                                                                                                                      TJ=150℃
+                                                                       10                                                                                                                                    10                                                                                                                                10
+
+                                                                       5                                                                                                                                      5                                                                                                                                 5
+
+                                                                       0                                                                                                                                      0                                                                                                                                 0
+                                                                        0.0       0.5  1.0   1.5   2.0  2.5    3.0  3.5   4.0                                                                                  0.0      0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0                                                                                  0.0           0.5        1.0        1.5          2.0        2.5           3.0
+                                                                                VCE(sat), Collector - Emitter voltage [V]                                                                                              VCE(sat), Collector - Emitter voltage [V]                                                                                              VF, Emitter - Collector voltage [V]
+                                                                       Typ. Collector – Emitter saturation                                                                                                    Typ. Collector – Emitter saturation                                                                                                         Typ. Diode forward voltage
+                                                                                    voltage                                                                                                                                voltage
+
+                                                                       10                                                                                                                                    2.0                                                                                                                               500
+
+
+
+
+                             Eon, Turn on switching energy loss [mJ]                                                                                             Eoff, Turn off switching energy loss [mJ]
+                                                                                VDC=300V                                                                                                                                                                                                                                                                 VDC=300V
+
+
+
+
+                                                                                                                                                                                                                                                                                                     Erec, Reverse recovery energy loss [uJ]
+                                                                        9                                                                                                                                    1.8       High side @TJ=25℃                                                                                                       450
+                                                                                VDD=15V                                                                                                                                                                                                                                                                  VDD=15V
+                                                                                                                                                                                                                       High side @TJ=150℃
+                                                                        8                                                                                                                                    1.6       Low side @TJ=25℃                                                                                                        400        High side @TJ=25℃
+                                                                                                                                                                                                                       Low side @TJ=150℃                                                                                                                  High side @TJ=150℃
+                                                                        7        High side @TJ=25℃                                                                                                           1.4                                                                                                                               350
+                                                                                                                                                                                                                                                                                                                                                          Low side @TJ=25℃
+                                                                                 High side @TJ=150℃
+                                                                        6                                                                                                                                    1.2                                                                                                                               300        Low side @TJ=150℃
+                                                                                 Low side @TJ=25℃
+                                                                        5        Low side @TJ=150℃                                                                                                           1.0                                                                                                                               250
+
+                                                                        4                                                                                                                                    0.8                                                                                                                               200
+
+                                                                        3                                                                                                                                    0.6                                                                                                                               150
+
+                                                                        2                                                                                                                                    0.4                                                                                                                               100
+
+                                                                        1                                                                                                                                    0.2                                                     VDC=300V                                                                   50
+                                                                                                                                                                                                                                                                     VDD=15V
+                                                                        0                                                                                                                                    0.0                                                                                                                                 0
+                                                                            0    5   10    15   20   25   30    35   40   45   50   55   60                                                                        0    5   10    15   20   25   30   35   40   45    50   55   60                                                                   0    5    10    15   20    25   30     35    40    45       50   55   60
+                                                                                          Ic, Collector current [A]                                                                                                              Ic, Collector current [A]                                                                                                           Ic, Collector current [A]
+                                                                       Typ. Turn on switching energy loss                                                                                                     Typ. Turn off switching energy loss                                                                                              Typ. Reverse recovery energy loss
+
+                                              1000                                                                                                                                         1000                                                                                                                                      1800
+                                                                                VDC=300V                                                                                                                               VDC=300V
+
+
+
+
+ton, Turn on propagation delay time [ns]                                                                                                                                                                                                                                              toff, Turn off propagation delay time [ns]
+                                                                                                                                                                                                                                                                                                                                                                                                         VDC=300V
+                                                                                                                                                                                                             900
+
+
+
+
+                                                                                                                                              tc(on), Turn on switching time [ns]
+                                                             950                VDD=15V                                                                                                                                VDD=15V                                                                                                                                                                           VDD=15V
+                                                                                 High side @TJ=25℃                                                                                                           800        High side @TJ=25℃                                                                                            1600
+                                                             900
+                                                                                 High side @TJ=150℃                                                                                                                     High side @TJ=150℃                                                                                                                                            High side @TJ=25℃
+                                                                                                                                                                                                             700
+                                                             850                 Low side @TJ=25℃                                                                                                                       Low side @TJ=25℃                                                                                                                                              High side @TJ=150℃
+                                                                                 Low side @TJ=150℃                                                                                                           600        Low side @TJ=150℃                                                                                            1400                                             Low side @TJ=25℃
+                                                             800
+                                                                                                                                                                                                                                                                                                                                                                                      Low side @TJ=150℃
+                                                                                                                                                                                                             500
+                                                             750
+                                                                                                                                                                                                             400                                                                                                                     1200
+                                                             700
+                                                                                                                                                                                                             300
+
+                                                             650
+                                                                                                                                                                                                             200                                                                                                                     1000
+
+                                                             600                                                                                                                                             100
+
+                                                             550                                                                                                                                              0                                                                                                                                800
+                                                                            0    5   10    15   20   25   30    35   40   45   50   55   60                                                                        0    5   10    15   20   25   30   35   40   45    50   55   60                                                                   0    5    10    15   20    25   30     35    40    45       50   55   60
+                                                                                          Ic, Collector current [A]                                                                                                              Ic, Collector current [A]                                                                                                           Ic, Collector current [A]
+                                                                 Typ. Turn on propagation delay time                                                                                                                   Typ. Turn on switching time                                                                                             Typ. Turn off propagation delay time
+
+                                                             800                                                                                                                                             500                                                                                                                               10
+                                                                                                                                                                                                                       VDC=300V
+                                                                                                                          VDC=300V
+
+
+
+
+              tc(off), Turn off switching time [ns]
+                                                                                                                                                                                                                                                                                     ZthJC, transient thermal resistance [K/W]
+                                                                                                                                                                                                             450       VDD=15V
+                                                             700                                                          VDD=15V                                                                                                                                                                                                               1
+
+
+
+
+                                                                                                                                                           trr, Reverse recovery time [ns]
+                                                                                                                                                                                                                       High side @TJ=25℃
+                                                                                                                                                                                                             400
+                                                             600                                                                                                                                                       High side @TJ=150℃
+
+                                                                                                                                                                                                             350       Low side @TJ=25℃                                                                                                        0.1
+                                                             500                                               High side @TJ=25℃                                                                                       Low side @TJ=150℃
+                                                                                                               High side @TJ=150℃                                                                            300
+                                                                                                                                                                                                                                                                                                                                    0.01                                                    D : duty ratio
+                                                                                                               Low side @TJ=25℃
+                                                             400
+                                                                                                                                                                                                             250                                                                                                                                                                                    D=50%
+                                                                                                               Low side @TJ=150℃                                                                                                                                                                                                                                                                    D=20%
+                                                             300                                                                                                                                             200                                                                                                                   1E-3                                                             D=10%
+                                                                                                                                                                                                                                                                                                                                                                                                    D=5%
+                                                                                                                                                                                                             150                                                                                                                                                                                    D=2%
+                                                             200
+                                                                                                                                                                                                                                                                                                                                   1E-4                                                             Single pulse
+                                                                                                                                                                                                             100
+                                                             100
+                                                                                                                                                                                                             50                                                                                                                    1E-5
+                                                                            0    5   10    15   20   25   30    35   40   45   50   55   60                                                                        0    5   10    15   20   25   30   35   40   45    50   55   60                                                    1E-7 1E-6 1E-5 1E-4 1E-3                             0.01   0.1        1        10    100
+                                                                                          Ic, Collector current [A]                                                                                                              Ic, Collector current [A]                                                                                                           tP, Pulse width [sec.]
+
+                                                                                Typ. Turn off switching time                                                                                                           Typ. Reverse recovery time                                                                              IGBT transient thermal resistance at all
+                                                                                                                                                                                                                                                                                                                                        six IGBTs operation
+
+
+
+
+          Datasheet                                                                                                                                                                                                                    14 of 17                                                                                                                                                          V 2.5
+                                                                                                                                                                                                                                                                                                                                                                                                   2019-10-16
+Control Integrated POwer System (CIPOS™)
+IKCM30F60GD
+
+
+Package Outline
+
+
+
+
+Datasheet                          15 of 17         V 2.5
+                                              2019-10-16
+Control Integrated POwer System (CIPOS™)
+IKCM30F60GD
+
+
+
+Revision history
+
+Document      Date of release   Description of changes
+version
+                                Maximum operating case temperature, Tc= 125°C
+V 2.4         Sep. 2017
+                                Package outline update
+V 2.5         2019-10-16        Corrected typo in tf
+
+
+
+
+Datasheet                                      16 of 17                               V 2.5
+                                                                                2019-10-16
+Trademarks
+All referenced product or service names and trademarks are the property of their respective owners.
+
+
+
+
+                                            IMPORTANT NOTICE
+Edition 2019-10-16                          The information given in this document shall in no        For further information on the product, technology,
+                                            event be regarded as a guarantee of conditions or         delivery terms and conditions and prices please
+Published by                                characteristics (“Beschaffenheitsgarantie”) .             contact your nearest Infineon Technologies office
+                                                                                                      (www.infineon.com).
+Infineon Technologies AG
+                                            With respect to any examples, hints or any typical
+81726 München, Germany                      values stated herein and/or any information               Please note that this product is not qualified
+                                            regarding the application of the product, Infineon        according to the AEC Q100 or AEC Q101 documents
+                                            Technologies hereby disclaims any and all                 of the Automotive Electronics Council.
+© 2019 Infineon Technologies AG.            warranties and liabilities of any kind, including
+All Rights Reserved.                        without limitation warranties of non-infringement
+                                            of intellectual property rights of any third party.       WARNINGS
+                                                                                                      Due to technical requirements products may
+Do you have a question about this           In addition, any information given in this document       contain dangerous substances. For information on
+document?                                   is subject to customer’s compliance with its              the types in question please contact your nearest
+                                            obligations stated in this document and any               Infineon Technologies office.
+Email: erratum@infineon.com                 applicable legal requirements, norms and
+                                            standards concerning customer’s products and any          Except as otherwise explicitly approved by Infineon
+                                            use of the product of Infineon Technologies in            Technologies in a written document signed by
+Document reference                          customer’s applications.                                  authorized      representatives     of     Infineon
+ifx1                                                                                                  Technologies, Infineon Technologies’ products may
+                                            The data contained in this document is exclusively        not be used in any applications where a failure of
+                                            intended for technically trained staff. It is the         the product or any consequences of the use thereof
+                                            responsibility of customer’s technical departments        can reasonably be expected to result in personal
+                                            to evaluate the suitability of the product for the        injury.
+                                            intended application and the completeness of the
+                                            product information given in this document with
+                                            respect to such application.
+

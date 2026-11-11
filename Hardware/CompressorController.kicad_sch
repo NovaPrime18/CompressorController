@@ -1717,16 +1717,6 @@
 		)
 		(uuid "25115506-f8dc-4ccf-9801-3b4d84d427df")
 	)
-	(text "TODO:\nResistor div calc"
-		(exclude_from_sim no)
-		(at 101.092 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a96244dd-2c5c-4388-a15d-3b1469e24420")
-	)
 	(text "Needs to follow for CE cert:\nEN IEC 63000 (RoHS)\nIEC 60335-2-34 (Particular requirements for motor-compressors)\nIEC_61000-3-2 (Limits for harmonic current emissions) <--- Most important"
 		(exclude_from_sim no)
 		(at 136.652 192.532 0)

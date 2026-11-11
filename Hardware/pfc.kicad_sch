@@ -3526,6 +3526,17 @@
 		)
 		(uuid "ee89e47d-557d-424f-9ccb-b9e2ef8d0810")
 	)
+	(text "TODO: \nREPLACE WITH SiC"
+		(exclude_from_sim no)
+		(at 250.19 77.724 0)
+		(effects
+			(font
+				(face "Comfortaa Light")
+				(size 2 2)
+			)
+		)
+		(uuid "fcba0a5b-2879-4c04-b45b-f82621bd04e8")
+	)
 	(text_box "Gate drive"
 		(exclude_from_sim no)
 		(at 85.09 99.06 0)
@@ -3872,16 +3883,16 @@
 		(uuid "b1ba364c-96bd-45ee-b6a9-fefd9c9be1f5")
 	)
 	(junction
+		(at 139.7 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9408f48-ab17-476c-ab14-c7dece8bcc99")
+	)
+	(junction
 		(at 313.69 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cafc6878-4a55-42d5-96da-e0760a952d17")
-	)
-	(junction
-		(at 374.65 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb19fc03-4a1c-417d-8f76-7afb524569a0")
 	)
 	(junction
 		(at 208.28 95.25)
@@ -3918,12 +3929,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e78f581d-c996-4947-895b-6d3c76d6b389")
-	)
-	(junction
-		(at 382.27 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f62994b1-cf1e-48be-9378-80d4cd899408")
 	)
 	(junction
 		(at 78.74 95.25)
@@ -4253,6 +4258,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 168.91) (xy 170.18 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c0bd48-0532-4c54-9209-2f93de23ffc7")
+	)
+	(wire
+		(pts
 			(xy 114.3 86.36) (xy 78.74 86.36)
 		)
 		(stroke
@@ -4273,6 +4288,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 176.53) (xy 139.7 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c16d59-5472-450e-9f73-491fa15c4f48")
+	)
+	(wire
+		(pts
 			(xy 224.79 181.61) (xy 224.79 187.96)
 		)
 		(stroke
@@ -4290,6 +4315,16 @@
 			(type default)
 		)
 		(uuid "2f9d907a-aa4e-4f2c-94b8-eb63ba3c5844")
+	)
+	(wire
+		(pts
+			(xy 139.7 168.91) (xy 139.7 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30091ca7-418c-4c02-8e9b-fbf1dc782010")
 	)
 	(wire
 		(pts
@@ -4560,16 +4595,6 @@
 			(type default)
 		)
 		(uuid "55e39353-1bef-40af-a90e-7e2f492451d0")
-	)
-	(wire
-		(pts
-			(xy 374.65 113.03) (xy 374.65 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "567c5284-eb6a-4ac3-ae26-933d4e081f47")
 	)
 	(wire
 		(pts
@@ -5153,16 +5178,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 113.03) (xy 382.27 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c22e07-b602-4e04-a9c8-f8a4febd9362")
-	)
-	(wire
-		(pts
 			(xy 245.11 119.38) (xy 247.65 119.38)
 		)
 		(stroke
@@ -5233,7 +5248,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 168.91) (xy 170.18 168.91)
+			(xy 34.29 168.91) (xy 139.7 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5330,16 +5345,6 @@
 			(type default)
 		)
 		(uuid "a91e0fd6-c2fc-4733-ab45-373f6d03db78")
-	)
-	(wire
-		(pts
-			(xy 374.65 113.03) (xy 382.27 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa78174b-46d8-4022-b36d-14b0320dbd63")
 	)
 	(wire
 		(pts
@@ -5533,7 +5538,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 110.49) (xy 382.27 113.03)
+			(xy 382.27 110.49) (xy 382.27 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5923,7 +5928,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 110.49) (xy 374.65 113.03)
+			(xy 374.65 110.49) (xy 374.65 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7518,7 +7523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "330uF"
 			(at 300.99 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7584,7 +7589,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C239291"
+		(property "LCSC" "C7211174"
 			(at 300.736 110.744 0)
 			(hide yes)
 			(show_name no)
@@ -8329,7 +8334,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "440df11d-32e2-4bd4-946d-e1e7abea948b")
 		(property "Reference" "R66"
@@ -8588,6 +8593,85 @@
 			(project "CompressorController"
 				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 180.34 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c365db8-e204-4c89-9c03-35f69fa2ef30")
+		(property "Reference" "#PWR0156"
+			(at 139.7 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e931fc8-87d6-4116-bd1a-60dbfc322c4a")
+		)
+		(instances
+			(project "CompressorController"
+				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -9599,7 +9683,7 @@
 				)
 			)
 		)
-		(property "Value" "DSEP30-06A"
+		(property "Value" "BCA65S30D3"
 			(at 261.9375 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9620,7 +9704,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/845/C3D04060A.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412021740_Bestirpower-BCA65S30D3_C42401690.pdf"
 			(at 261.62 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9631,7 +9715,7 @@
 				)
 			)
 		)
-		(property "Description" "35ns 165W 600V 1 Independent 1.91V@60A 30A TO-247-2 Single Diodes RoHS"
+		(property "Description" "SiC Schottky Diode 650V 30A TO-247-2, Vf=1.45V@30A, Qc=85nC@400V, IFSM=216A, -55~+175C"
 			(at 261.62 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9642,7 +9726,7 @@
 				)
 			)
 		)
-		(property "JLC" "C426668"
+		(property "JLC" "C42401690"
 			(at 261.62 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9653,7 +9737,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C426668"
+		(property "LCSC" "C42401690"
 			(at 261.9375 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10181,10 +10265,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "7b96f65f-12e8-4a44-a6a7-f44230f49701")
 		(property "Reference" "C69"
 			(at 267.97 97.536 90)
@@ -10206,7 +10290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
 			(at 267.97 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10239,7 +10323,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1862"
+		(property "LCSC" ""
 			(at 267.97 97.536 0)
 			(hide yes)
 			(show_name no)
@@ -10593,7 +10677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "330uF"
 			(at 285.75 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10659,7 +10743,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C239291"
+		(property "LCSC" "C7211174"
 			(at 285.496 110.744 0)
 			(hide yes)
 			(show_name no)
@@ -11359,10 +11443,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "9c5f38ff-50f4-42fe-a920-d5f7661e1572")
 		(property "Reference" "R77"
 			(at 255.27 98.298 90)
@@ -12970,6 +13054,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 139.7 173.99 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d72aff77-0821-45e4-a809-a0ba18b60e9e")
+		(property "Reference" "C98"
+			(at 139.446 172.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7nF"
+			(at 139.446 175.768 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1609"
+			(at 139.446 172.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f1e3eb72-d673-4fb5-9989-508ba2548c46")
+		)
+		(pin "1"
+			(uuid "c8af1fc6-9cd8-428d-97b9-bc049bb221c9")
+		)
+		(instances
+			(project "CompressorController"
+				(path "/9356db5b-0906-438c-b9cb-65e0760b4732/d6f0aa75-656c-4b1f-8742-992990b56732"
+					(reference "C98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ThommiesLib:IPL60R185C7")
 		(at 245.11 113.03 0)
 		(unit 1)
@@ -13423,7 +13622,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "330uF"
 			(at 293.37 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13489,7 +13688,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C239291"
+		(property "LCSC" "C7211174"
 			(at 293.116 110.744 0)
 			(hide yes)
 			(show_name no)
