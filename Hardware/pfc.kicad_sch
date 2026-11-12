@@ -11592,6 +11592,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C5375488"
+			(at 48.26 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "C5375488"
+			(at 48.26 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "84b1b3ca-6c26-4a33-b884-ce92de3a7b25")
 		)

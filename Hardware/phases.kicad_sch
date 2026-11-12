@@ -9716,7 +9716,18 @@
 				)
 			)
 		)
-		(property "JLC" ""
+		(property "JLC" "C2904210"
+			(at 275.59 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2904210"
 			(at 275.59 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -13711,7 +13722,18 @@
 				)
 			)
 		)
-		(property "JLC" ""
+		(property "JLC" "C2904210"
+			(at 289.56 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2904210"
 			(at 289.56 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -14033,7 +14055,18 @@
 				)
 			)
 		)
-		(property "JLC" ""
+		(property "JLC" "C2904210"
+			(at 281.94 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2904210"
 			(at 281.94 179.07 0)
 			(hide yes)
 			(show_name no)
